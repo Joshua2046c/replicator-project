@@ -2,17 +2,35 @@
   "schema_version": 1,
   "units": "mm",
   "movement": {
-    "reference_product": "M&P STANDARD QUARTZ MOVEMENT: 12mm SHAFT (0473 000315)",
+    "reference_product": "Envelope evidence only: M&P 56 x 56 x 17 mm class; selected movement shaft is user-specified 14 mm",
     "source_url": "https://www.m-p.co.uk/muk/parts/movements-quartz.htm",
-    "reference_envelope": [56, 56, 17],
+    "reference_envelope": [
+      56,
+      56,
+      17
+    ],
     "center_hole_diameter": 10,
-    "supported_dial_thickness": [0.25, 3.5],
-    "design_clear_cavity": [62, 62, 22],
+    "supported_dial_thickness": [
+      0.25,
+      3.5
+    ],
+    "design_clear_cavity": [
+      64,
+      64,
+      22
+    ],
     "design_dial_thickness": 2.4,
     "mounting": "Use supplied movement nut and washer; no screws into printed plastic",
     "service": "Open rear access; AA cell installed in movement's own holder",
-    "limitations": "This envelope is a selected common class, not every movement sold as universal. No vendor STEP found."
+    "limitations": "This envelope is a selected common class, not every movement sold as universal. No vendor STEP found.",
+    "user_total_shaft_length_mm": 14
   },
-  "material": {"value": "yellow PETG", "source": "default"},
-  "fitting_clearance_per_side": {"value": 0.25, "source": "default"}
+  "material": {
+    "value": "yellow PETG",
+    "source": "default"
+  },
+  "fitting_clearance_per_side": {
+    "value": 0.25,
+    "source": "default"
+  }
 }

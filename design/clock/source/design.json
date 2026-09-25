@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "units": "mm",
+  "coordinateFrame": "replicator-world-z-up",
+  "targets": [
+    {
+      "id": "base",
+      "label": "base",
+      "cells": [
+        {
+          "id": "base",
+          "target": "base",
+          "order": 0,
+          "path": "design/clock/source/parts/base/000-base.py",
+          "sha256": "da8ace0c018696e25f7281428bdb8a1edc3eca186e06c7d5d0659b80987deb09"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "body",
+      "label": "body",
+      "cells": [
+        {
+          "id": "body",
+          "target": "body",
+          "order": 0,
+          "path": "design/clock/source/parts/body/000-body.py",
+          "sha256": "3d47f97d351e0ded00ea8f94276380866e58520a545eaebff8b0ab9a8a03efed"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "dial",
+      "label": "dial",
+      "cells": [
+        {
+          "id": "dial",
+          "target": "dial",
+          "order": 0,
+          "path": "design/clock/source/parts/dial/000-dial.py",
+          "sha256": "ec7185ae5dbe822d4b55595699ea84f0331e5529fd3a049bd13bb938bf28bf6b"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "objects": [
+    {
+      "id": "base",
+      "target": "base",
+      "label": "Storage base",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "608b7e15bbf6b910ab6b1babd610b883955e1042db92166cc02a05fcff631cb2",
+      "transform": {
+        "positionMm": [
+          0,
+          -10,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "body",
+      "target": "body",
+      "label": "Clock body",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "3918d731b5a515449054193288641f0a34f4a577d8de9a998234fe6becff16c7",
+      "transform": {
+        "positionMm": [
+          0,
+          -10,
+          220
+        ],
+        "rotationDeg": [
+          90,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "dial",
+      "target": "dial",
+      "label": "Nested dial",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "81c91bb7b3a3eca17d4de2deb0ef68e066154eb00c9172a6f2f83f6133b34b47",
+      "transform": {
+        "positionMm": [
+          0,
+          -32,
+          220
+        ],
+        "rotationDeg": [
+          90,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    }
+  ],
+  "assets": [],
+  "fits": [],
+  "updatedAt": "2026-09-25T18:13:51.137Z",
+  "parameters": {
+    "base": {
+      "base_width": 92,
+      "base_depth": 94,
+      "base_height": 170,
+      "base_wall": 4,
+      "base_floor": 6,
+      "base_corner_radius": 12,
+      "base_storage_front": 42,
+      "base_socket_width": 20.5,
+      "base_socket_depth": 25.5,
+      "base_socket_y": 18
+    },
+    "body": {
+      "body_diameter": 240,
+      "body_depth": 28,
+      "body_wall": 2.7,
+      "body_back_thickness": 3,
+      "body_service_opening": 64,
+      "body_seat_height": 21.8,
+      "body_seat_thickness": 2.8,
+      "body_seat_width": 5.3,
+      "body_neck_width": 28,
+      "body_neck_height": 10,
+      "body_neck_reach": 38,
+      "body_neck_vertical": -50,
+      "body_tenon_width": 20,
+      "body_tenon_length": 25,
+      "body_tenon_rear_offset": 18
+    },
+    "dial": {
+      "dial_diameter": 234,
+      "dial_flat_diameter": 216,
+      "dial_thickness": 2.4,
+      "dial_edge_rise": 3,
+      "dial_shaft_hole_diameter": 10
+    }
+  }
+}

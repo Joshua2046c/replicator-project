@@ -1,21 +1,19 @@
 {
   "schema_version": 1,
-  "status": "draft",
-  "bom_ready": false,
-  "requirements_digest": "5161ca80624385edb7ab827d6a666bba99579a351a3e478d38575f5fb6faf4f6",
+  "status": "ready",
+  "bom_ready": true,
+  "requirements_digest": "f28e155509fc925e5f03fe124083f4e647739cd6feeae9fdb17e5bc497e0154d",
   "items": [
     {
       "id": "movement",
       "role": "clock_movement",
-      "name": "STANDARD QUARTZ MOVEMENT: 12mm SHAFT",
+      "name": "Generic AA quartz movement, 14 mm shaft, 56 x 56 x 17 mm class",
       "quantity": 1,
-      "supplier": "M&P",
-      "part_number": "0473 000315",
-      "source": "research",
+      "source": "default",
       "product_url": "https://www.m-p.co.uk/muk/parts/movements-quartz.htm",
       "procurement_status": "external_procurement_required",
-      "description": "56 x 56 x 17 mm; 10 mm dial hole; dial 0.25-3.5 mm; supplied fixing nut and washer; AA cell.",
-      "part_identity": "83f9fa7dcaee9f89"
+      "description": "User shaft length 14 mm; reference housing envelope 56 x 56 x 17 mm. Selected design cavity 64 x 64 x 22 mm. Supplied washer and shaft nut retain 2.4 mm dial. Thread length and hand press-fit sizes need physical fit check.",
+      "part_identity": "709e80c88487a241"
     },
     {
       "id": "base",
@@ -37,7 +35,7 @@
     },
     {
       "id": "hands",
-      "name": "Compatible I-shaft hand set; length pending unit clarification",
+      "name": "9084 style clock hand set, user maximum radius 90 mm; supplied picture also labels minute hand 102 mm",
       "quantity": 1,
       "source": "user",
       "procurement_status": "external_procurement_required"
@@ -48,15 +46,19 @@
       "quantity": 1,
       "source": "research",
       "procurement_status": "external_procurement_required"
-    }
-  ],
-  "unresolved_items": [
+    },
     {
-      "id": "hand_length_mm",
-      "reason": "User wrote 14 mm. Clarification pending whether this means 14 mm or 140 mm from axis to tip; overall size not frozen."
+      "id": "dial_tape",
+      "name": "Removable thin double-sided adhesive, 0.2 mm thick, small pads on dial seating ledge",
+      "quantity": 1,
+      "source": "default",
+      "procurement_status": "external_procurement_required"
     }
   ],
+  "unresolved_items": [],
   "supply_risks": [
-    "No verified movement STEP found. Mechanical interface will use published envelope dimensions; no placeholder movement geometry."
+    "Movement STEP unavailable; cavity uses published common housing envelope, not an exact asset fit check.",
+    "14 mm total shaft does not specify threaded length; confirm nut engages on the 2.4 mm dial with supplied washer before final assembly.",
+    "User states 90 mm maximum; image labels minute hand 102 mm. Flat radius 108 mm accommodates both."
   ]
 }
