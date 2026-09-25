@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "parts": [{
+    "id": "quartz_movement",
+    "requested": "Common self-contained AA quartz clock movement",
+    "status": "unsupported",
+    "catalog_candidates": "Only unrelated screws, washers and couplers returned; all rejected.",
+    "step_parts": "No results for quartz clock movement",
+    "geometry_policy": "Do not create a placeholder movement. Model only installation interfaces around published dimensions.",
+    "dimension_reference": "https://www.m-p.co.uk/muk/parts/movements-quartz.htm"
+  }],
+  "connections": [
+    {"id": "tenon", "implementation": "free", "reason": "Custom square tenon and matching socket"},
+    {"id": "dial_nest", "implementation": "free", "reason": "Custom nested rim and removable adhesive retention"},
+    {"id": "movement", "implementation": "free", "reason": "Purchased shaft nut and washer clamp the dial; no screw threads in printed material"}
+  ],
+  "unhandled_connections": []
+}

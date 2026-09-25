@@ -1,0 +1,6 @@
+{
+  "schema_version": 1,
+  "parts": [{"ref": "M1", "name": "Self-contained AA quartz clock movement, 56 x 56 x 17 mm class", "quantity": 1}],
+  "connections": [],
+  "power": []
+}

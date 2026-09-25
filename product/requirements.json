@@ -1,0 +1,12 @@
+{
+  "requirements": {
+    "product_class": {"value": "mechanical", "source": "default"},
+    "parts": {"value": ["顶部收纳底座", "加厚钟主体", "嵌套盘面"], "source": "user"},
+    "base_joint": {"value": "方榫连接", "source": "user"},
+    "dial_shape": {"value": "指针范围纯平，外缘微弧翘起，钟主体包住盘面", "source": "user"},
+    "hand_length_mm": {"value": 14, "source": "user"},
+    "manufacturing_method": {"value": "fdm", "source": "default"},
+    "base_board": {"value": "无控制板，独立电池石英钟芯", "source": "default"}
+  },
+  "open_questions": ["指针长度 14 mm 是轴心到针尖还是原意为 14 cm？"]
+}

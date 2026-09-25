@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "status": "draft",
+  "bom_ready": false,
+  "requirements_digest": "5161ca80624385edb7ab827d6a666bba99579a351a3e478d38575f5fb6faf4f6",
+  "items": [
+    {
+      "id": "movement",
+      "role": "clock_movement",
+      "name": "STANDARD QUARTZ MOVEMENT: 12mm SHAFT",
+      "quantity": 1,
+      "supplier": "M&P",
+      "part_number": "0473 000315",
+      "source": "research",
+      "product_url": "https://www.m-p.co.uk/muk/parts/movements-quartz.htm",
+      "procurement_status": "external_procurement_required",
+      "description": "56 x 56 x 17 mm; 10 mm dial hole; dial 0.25-3.5 mm; supplied fixing nut and washer; AA cell.",
+      "part_identity": "83f9fa7dcaee9f89"
+    },
+    {
+      "id": "base",
+      "name": "Custom storage base with square mortise",
+      "quantity": 1,
+      "source": "default"
+    },
+    {
+      "id": "body",
+      "name": "Custom clock body with square tenon",
+      "quantity": 1,
+      "source": "default"
+    },
+    {
+      "id": "dial",
+      "name": "Custom flat-center raised-edge dial",
+      "quantity": 1,
+      "source": "default"
+    },
+    {
+      "id": "hands",
+      "name": "Compatible I-shaft hand set; length pending unit clarification",
+      "quantity": 1,
+      "source": "user",
+      "procurement_status": "external_procurement_required"
+    },
+    {
+      "id": "battery",
+      "name": "1.5 V AA battery",
+      "quantity": 1,
+      "source": "research",
+      "procurement_status": "external_procurement_required"
+    }
+  ],
+  "unresolved_items": [
+    {
+      "id": "hand_length_mm",
+      "reason": "User wrote 14 mm. Clarification pending whether this means 14 mm or 140 mm from axis to tip; overall size not frozen."
+    }
+  ],
+  "supply_risks": [
+    "No verified movement STEP found. Mechanical interface will use published envelope dimensions; no placeholder movement geometry."
+  ]
+}
