@@ -45,19 +45,19 @@
       "source": "default"
     },
     "body_depth_mm": {
-      "value": 28,
+      "value": 32,
       "source": "default"
     },
     "base_size_mm": {
       "value": [
-        92,
-        94,
-        170
+        84,
+        90,
+        160
       ],
       "source": "default"
     },
     "overall_height_mm": {
-      "value": 340,
+      "value": 291.15,
       "source": "default"
     },
     "dial_thickness_mm": {
@@ -66,6 +66,34 @@
     },
     "edge_rise_mm": {
       "value": 3,
+      "source": "default"
+    },
+    "dial_backward_tilt_deg": {
+      "value": 8,
+      "source": "default"
+    },
+    "body_rear_chamfer_mm": {
+      "value": 7,
+      "source": "default"
+    },
+    "body_front_chamfer_mm": {
+      "value": 1,
+      "source": "default"
+    },
+    "base_corner_radius_mm": {
+      "value": 18,
+      "source": "default"
+    },
+    "movement_concealment": {
+      "value": "Movement fully concealed inside closed body; no rear service opening. Remove nested dial for access.",
+      "source": "user"
+    },
+    "appearance_refinement": {
+      "value": "Follow supplied photos for dial angle and rounded storage base; chamfer body edges.",
+      "source": "user"
+    },
+    "clock_back_center_height_mm": {
+      "value": 168,
       "source": "default"
     }
   },

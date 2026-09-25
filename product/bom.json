@@ -2,7 +2,7 @@
   "schema_version": 1,
   "status": "ready",
   "bom_ready": true,
-  "requirements_digest": "f28e155509fc925e5f03fe124083f4e647739cd6feeae9fdb17e5bc497e0154d",
+  "requirements_digest": "dd543993a46047a7b3480931c2b8548358a17ad0e65ad498345dd68343cf8c5a",
   "items": [
     {
       "id": "movement",
@@ -12,18 +12,18 @@
       "source": "default",
       "product_url": "https://www.m-p.co.uk/muk/parts/movements-quartz.htm",
       "procurement_status": "external_procurement_required",
-      "description": "User shaft length 14 mm; reference housing envelope 56 x 56 x 17 mm. Selected design cavity 64 x 64 x 22 mm. Supplied washer and shaft nut retain 2.4 mm dial. Thread length and hand press-fit sizes need physical fit check.",
+      "description": "User shaft length 14 mm; reference housing envelope 56 x 56 x 17 mm. Selected design cavity 64 x 64 x 22.5 mm. Supplied washer and shaft nut retain 2.4 mm dial. Thread length and hand press-fit sizes need physical fit check.",
       "part_identity": "709e80c88487a241"
     },
     {
       "id": "base",
-      "name": "Custom storage base with square mortise",
+      "name": "Custom rounded storage base, 84 x 90 x 160 mm, R18 corners, square mortise",
       "quantity": 1,
       "source": "default"
     },
     {
       "id": "body",
-      "name": "Custom clock body with square tenon",
+      "name": "Custom closed-back clock body, 240 mm diameter, 32 mm deep, chamfered rim, 8 degree tilted face",
       "quantity": 1,
       "source": "default"
     },
@@ -49,7 +49,7 @@
     },
     {
       "id": "dial_tape",
-      "name": "Removable thin double-sided adhesive, 0.2 mm thick, small pads on dial seating ledge",
+      "name": "Removable 0.2 mm double-sided adhesive pads; replace pads when dial is removed for battery service",
       "quantity": 1,
       "source": "default",
       "procurement_status": "external_procurement_required"

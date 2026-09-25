@@ -17,11 +17,11 @@
     "design_clear_cavity": [
       64,
       64,
-      22
+      22.5
     ],
     "design_dial_thickness": 2.4,
     "mounting": "Use supplied movement nut and washer; no screws into printed plastic",
-    "service": "Open rear access; AA cell installed in movement's own holder",
+    "service": "Remove nested dial and movement together from the front; fully closed rear face",
     "limitations": "This envelope is a selected common class, not every movement sold as universal. No vendor STEP found.",
     "user_total_shaft_length_mm": 14
   },

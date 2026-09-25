@@ -4,12 +4,65 @@
   "deliverable_intent": "printable_part",
   "summary": "三件式收纳石英座钟",
   "required_interfaces": [
-    {"id": "tenon", "kind": "mechanical_joint", "description": "底座与钟体方榫连接", "source": "user_requested", "required": true},
-    {"id": "dial_nest", "kind": "internal_fit", "description": "微翘边盘面嵌入钟体", "source": "user_requested", "required": true},
-    {"id": "movement", "kind": "internal_fit", "description": "通用石英钟芯空间及轴孔", "source": "user_requested", "required": true}
+    {
+      "id": "tenon",
+      "kind": "mechanical_joint",
+      "description": "底座与钟体方榫连接",
+      "source": "user_requested",
+      "required": true
+    },
+    {
+      "id": "dial_nest",
+      "kind": "internal_fit",
+      "description": "微翘边盘面嵌入钟体",
+      "source": "user_requested",
+      "required": true
+    },
+    {
+      "id": "movement",
+      "kind": "internal_fit",
+      "description": "通用石英钟芯空间及轴孔",
+      "source": "user_requested",
+      "required": true
+    }
   ],
-  "external_references": [{"id": "reference_images", "source": "user_requested", "description": "用户上传的座钟正侧面及背面图", "path": "product/references/uploads"}],
-  "assembly_story": {"installation": "安装钟芯及盘面，钟体方榫插入底座", "maintenance": "从后方接近电池及钟芯", "user_access": ["顶部收纳口", "钟芯电池"]},
-  "cad": {"requirement": "required", "designs": [{"role": "clock", "design_id": "clock", "description": "三件式收纳座钟", "delivery_target": "printable_part", "required_formats": ["step"], "interface_ids": ["tenon", "dial_nest", "movement"], "reference_ids": ["reference_images"]}]},
+  "external_references": [
+    {
+      "id": "reference_images",
+      "source": "user_requested",
+      "description": "用户上传的座钟正侧面及背面图",
+      "path": "product/references/uploads"
+    }
+  ],
+  "assembly_story": {
+    "installation": "安装钟芯及盘面，钟体方榫插入底座",
+    "maintenance": "Remove the nested dial with its attached movement from the front to replace the AA battery; rear face is completely closed.",
+    "user_access": [
+      "顶部收纳口",
+      "钟芯电池"
+    ]
+  },
+  "cad": {
+    "requirement": "required",
+    "designs": [
+      {
+        "role": "clock",
+        "design_id": "clock",
+        "description": "三件式收纳座钟",
+        "delivery_target": "printable_part",
+        "required_formats": [
+          "step"
+        ],
+        "interface_ids": [
+          "tenon",
+          "dial_nest",
+          "movement"
+        ],
+        "reference_ids": [
+          "reference_images"
+        ]
+      }
+    ]
+  },
   "open_questions": []
 }
