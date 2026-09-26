@@ -26,7 +26,7 @@
           "target": "body",
           "order": 0,
           "path": "design/clock/source/parts/body/000-main.py",
-          "sha256": "0e12191deef71ffc0b3f46fb90e75bd5b5f4acde17dd66355dad3d42331fae90"
+          "sha256": "7bfff462ce9e29999fec18c55d445de869f9b708e33fbab905f24ee7ffb57756"
         }
       ],
       "dependencies": []
@@ -40,7 +40,7 @@
           "target": "dial",
           "order": 0,
           "path": "design/clock/source/parts/dial/000-dial.py",
-          "sha256": "ec7185ae5dbe822d4b55595699ea84f0331e5529fd3a049bd13bb938bf28bf6b"
+          "sha256": "3de3347a1fd5217a7a6ea2bf3f0f8bf60799e152d52025817f10bee65f4074b5"
         }
       ],
       "dependencies": []
@@ -122,7 +122,7 @@
       "label": "Recessed clock body",
       "material": "petg",
       "kind": "generated",
-      "shapeHash": "627d7bc3f7084a15fe801d015c5adf23b1c2bd7059dcb3292f5e0d9e70450a2d",
+      "shapeHash": "b439ade6b3f1635fef16bd5bad5df655d48c868b6e4f751f13548d21e6732212",
       "transform": {
         "positionMm": [
           0,
@@ -149,7 +149,7 @@
       "label": "Nested dial",
       "material": "petg",
       "kind": "generated",
-      "shapeHash": "75edaec36dd107b44b99fd62c9e135a847b20f12acba6a46fd013e55c9e543cc",
+      "shapeHash": "85621d41ef9f6f6146d7dcf4fdf0206a9596988bfa8ecfb9a1b9205210af38da",
       "transform": {
         "positionMm": [
           0,
@@ -230,7 +230,7 @@
       "label": "Reference traced numerals",
       "material": "petg",
       "kind": "generated",
-      "shapeHash": "23f4fcdc9049a4bd12d2175a31a6c34c1e43e059be5417ce81e899e9ca96ee86",
+      "shapeHash": "58620432062713b3ca37c7c550b82a5c0c6b05829b4c939cae944974ca5f62d4",
       "transform": {
         "positionMm": [
           0,
@@ -254,7 +254,7 @@
   ],
   "assets": [],
   "fits": [],
-  "updatedAt": "2026-09-26T02:32:09.873Z",
+  "updatedAt": "2026-09-26T02:43:02.564Z",
   "parameters": {
     "base": {
       "base_width": 84,
@@ -287,14 +287,17 @@
       "body_tilt_angle": 16,
       "body_locator_width": 12.5,
       "body_locator_depth": 1.2,
-      "body_locator_y": -24
+      "body_locator_y": -24,
+      "body_inner_lip_radius": 0.8
     },
     "dial": {
       "dial_diameter": 234,
       "dial_flat_diameter": 216,
       "dial_thickness": 2.4,
       "dial_edge_rise": 3,
-      "dial_shaft_hole_diameter": 10
+      "dial_shaft_hole_diameter": 10,
+      "dial_lip_radius": 1,
+      "dial_back_edge_radius": 0.5
     },
     "locator": {
       "locator_width": 12,

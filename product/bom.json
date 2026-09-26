@@ -2,7 +2,7 @@
   "schema_version": 1,
   "status": "ready",
   "bom_ready": true,
-  "requirements_digest": "9cf3b6a5f22ae2fdd13deafa5a78aeaf59545af78b43dbb0e34c28abfef8b1e0",
+  "requirements_digest": "77f9868bfa57d5723d80ffbd4c7cc59c50671cac2fbed4aaa8611461bf3206ea",
   "items": [
     {
       "id": "movement",
@@ -23,13 +23,13 @@
     },
     {
       "id": "body",
-      "name": "Custom closed-back clock body, 240 mm diameter, 32 mm deep, 16 degree tilt; 12.5 mm square blind glue recess 1.2 mm deep",
+      "name": "Custom closed-back clock body, 240 mm diameter, 32 mm deep, 16 degree tilt; tangent rear R7 and front R1 rounds, inner lip R0.8; 12.5 mm square blind glue recess 1.2 mm deep",
       "quantity": 1,
       "source": "default"
     },
     {
       "id": "dial",
-      "name": "Custom nested flat-center dial with white 0.6 mm raised hour blocks, minute ticks and numerals 1-12",
+      "name": "Custom nested flat-center dial, rounded outer lip R1 and rear edge R0.5, with white 0.6 mm raised hour blocks, minute ticks and numerals 1-12",
       "quantity": 1,
       "source": "default"
     },

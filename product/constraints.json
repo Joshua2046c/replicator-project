@@ -62,5 +62,14 @@
     "minimum_hand_underside_above_dial": 1.1,
     "clearance_status": "Assembly target only; verify with actual movement and hands",
     "numeral_style": "Outlines traced directly from supplied image; one uniform image scale of 25 mm per 180 px preserves per-label proportions"
+  },
+  "rounded_edges": {
+    "body_rear_radius": 7,
+    "body_front_radius": 1,
+    "body_inner_lip_radius": 0.8,
+    "dial_lip_radius": 1,
+    "dial_back_edge_radius": 0.5,
+    "source": "default",
+    "intent": "User requested smoothly rounded dial and body edges; central sweep plane and nesting seat are retained."
   }
 }

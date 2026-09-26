@@ -58,7 +58,7 @@
       "source": "default"
     },
     "overall_height_mm": {
-      "value": 291.9,
+      "value": 291.93,
       "source": "default"
     },
     "dial_thickness_mm": {
@@ -73,14 +73,6 @@
       "value": 16,
       "source": "default"
     },
-    "body_rear_chamfer_mm": {
-      "value": 7,
-      "source": "default"
-    },
-    "body_front_chamfer_mm": {
-      "value": 1,
-      "source": "default"
-    },
     "base_corner_radius_mm": {
       "value": 18,
       "source": "default"
@@ -90,7 +82,7 @@
       "source": "user"
     },
     "appearance_refinement": {
-      "value": "Follow supplied photos for dial angle and rounded storage base; chamfer body edges.",
+      "value": "Follow supplied photos for dial angle and rounded storage base; dial and body exposed edges must have smooth rounded transitions rather than flat chamfers.",
       "source": "user"
     },
     "clock_back_center_height_mm": {
@@ -178,6 +170,26 @@
     },
     "numeral_height_nominal_mm": {
       "value": 25,
+      "source": "default"
+    },
+    "body_rear_radius_mm": {
+      "value": 7,
+      "source": "default"
+    },
+    "body_front_radius_mm": {
+      "value": 1,
+      "source": "default"
+    },
+    "body_inner_lip_radius_mm": {
+      "value": 0.8,
+      "source": "default"
+    },
+    "dial_lip_radius_mm": {
+      "value": 1,
+      "source": "default"
+    },
+    "dial_back_edge_radius_mm": {
+      "value": 0.5,
       "source": "default"
     }
   },

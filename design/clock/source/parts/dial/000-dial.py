@@ -3,6 +3,8 @@ flat_diameter=param("dial_flat_diameter",216.0)
 thickness=param("dial_thickness",2.4)
 rise=param("dial_edge_rise",3.0)
 hole=param("dial_shaft_hole_diameter",10.0)
+lip_radius=param("dial_lip_radius",1.0)
+back_radius=param("dial_back_edge_radius",0.5)
 r=diameter/2
 f=flat_diameter/2
 width=r-f
@@ -17,6 +19,12 @@ with BuildPart() as plate:
         make_face()
     revolve(axis=Axis.Z)
 dial=plate.part
+lip_edges=[e for e in dial.edges() if e.geom_type==GeomType.CIRCLE and abs(e.center().Z-(thickness+rise))<1e-6]
+assert len(lip_edges)==1
+dial=fillet(lip_edges,radius=lip_radius)
+back_edges=[e for e in dial.edges() if e.geom_type==GeomType.CIRCLE and abs(e.center().Z)<1e-6 and abs(e.radius-r)<1e-6]
+assert len(back_edges)==1
+dial=fillet(back_edges,radius=back_radius)
 dial.color=Color(1.0,0.68,0.045)
 assert len(dial.solids())==1
 assert flat_diameter/2>102
