@@ -8,11 +8,11 @@
       "label": "base",
       "cells": [
         {
-          "id": "base",
+          "id": "main",
           "target": "base",
           "order": 0,
-          "path": "design/clock/source/parts/base/000-base.py",
-          "sha256": "a95c4ce11e2ae7d822b4fb2965dc0e39d093da48fed938c1983f7cfab54a1c1d"
+          "path": "design/clock/source/parts/base/000-main.py",
+          "sha256": "52e7ab0e9b7c546f45f6cea3c5be6c36ca4edef5029b13761b8982a2aab07e41"
         }
       ],
       "dependencies": []
@@ -22,11 +22,11 @@
       "label": "body",
       "cells": [
         {
-          "id": "body",
+          "id": "main",
           "target": "body",
           "order": 0,
-          "path": "design/clock/source/parts/body/000-body.py",
-          "sha256": "0916a4702f288c6ae3800206f2e100c430651bbc3f53eebf848ce9aab1232935"
+          "path": "design/clock/source/parts/body/000-main.py",
+          "sha256": "52702db40d2c0a48add59ac291b1d8387487997440da39aeb1dbefe006fccbad"
         }
       ],
       "dependencies": []
@@ -50,10 +50,10 @@
     {
       "id": "base",
       "target": "base",
-      "label": "Storage base",
+      "label": "Tangent storage base",
       "material": "petg",
       "kind": "generated",
-      "shapeHash": "b9c7a2e27cbc815f5f451adb42984619b252c672cde9b0c33f684eb3da682f57",
+      "shapeHash": "4e40eb8e0e7a32431db5622e50946ece04cfd3feae0b895e6dd01b9f90e7d3f9",
       "transform": {
         "positionMm": [
           0,
@@ -80,11 +80,11 @@
       "label": "Closed clock body",
       "material": "petg",
       "kind": "generated",
-      "shapeHash": "a40a94e4cb50ec18ca78fea9879cb764bb5cdb0033de1ad9998f0e9343bd75c5",
+      "shapeHash": "92ac2dd8e5eb8847320adf0c75ffc793dfb5786bcc7deb7c1b71bfcecae9d7ad",
       "transform": {
         "positionMm": [
           0,
-          -10,
+          -7.706036913929537,
           168
         ],
         "rotationDeg": [
@@ -107,15 +107,15 @@
       "label": "Nested dial",
       "material": "petg",
       "kind": "generated",
-      "shapeHash": "33f110b0d6ad8594b9060e79c1544b282d18aea3ddc422eb17e2190b1dc680c7",
+      "shapeHash": "75edaec36dd107b44b99fd62c9e135a847b20f12acba6a46fd013e55c9e543cc",
       "transform": {
         "positionMm": [
           0,
-          -35.74696978728083,
-          171.6185006249617
+          -32.69884100832583,
+          175.16657125124198
         ],
         "rotationDeg": [
-          82,
+          74,
           0,
           0
         ],
@@ -131,7 +131,7 @@
   ],
   "assets": [],
   "fits": [],
-  "updatedAt": "2026-09-25T18:24:53.357Z",
+  "updatedAt": "2026-09-26T01:28:30.900Z",
   "parameters": {
     "base": {
       "base_width": 84,
@@ -143,8 +143,11 @@
       "base_storage_front": 38,
       "base_socket_width": 20.5,
       "base_socket_depth": 25.5,
-      "base_socket_y": 18,
-      "base_lip_radius": 0.8
+      "base_socket_y": 20.293963086070463,
+      "base_lip_radius": 0.8,
+      "base_contact_angle": 16,
+      "base_contact_height": 30,
+      "base_root_recess_height": 15.25
     },
     "body": {
       "body_diameter": 240,
@@ -154,18 +157,15 @@
       "body_seat_height": 25.8,
       "body_seat_thickness": 2.8,
       "body_seat_width": 5.3,
-      "body_neck_width": 72,
-      "body_neck_height": 8,
-      "body_neck_reach": 36,
+      "body_neck_height": 15,
       "body_neck_vertical": -8,
       "body_tenon_width": 20,
       "body_tenon_length": 25,
       "body_tenon_rear_offset": 18,
       "body_rear_chamfer": 7,
       "body_front_chamfer": 1,
-      "body_tilt_angle": 8,
-      "body_neck_root_depth": 12,
-      "body_neck_corner_radius": 3
+      "body_tilt_angle": 16,
+      "body_neck_root_depth": 12
     },
     "dial": {
       "dial_diameter": 234,

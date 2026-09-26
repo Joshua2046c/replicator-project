@@ -2,7 +2,7 @@
   "schema_version": 1,
   "status": "ready",
   "bom_ready": true,
-  "requirements_digest": "dd543993a46047a7b3480931c2b8548358a17ad0e65ad498345dd68343cf8c5a",
+  "requirements_digest": "9be40a25cdd6d301efd5f6e53c9e632849d88cc28fa0b2ca053dbb3bdccbdb93",
   "items": [
     {
       "id": "movement",
@@ -17,13 +17,13 @@
     },
     {
       "id": "base",
-      "name": "Custom rounded storage base, 84 x 90 x 160 mm, R18 corners, square mortise",
+      "name": "Custom tangent storage base, 84 x 90 mm footprint, 160 mm high, shoulder depth 98.61 mm, concealed square mortise",
       "quantity": 1,
       "source": "default"
     },
     {
       "id": "body",
-      "name": "Custom closed-back clock body, 240 mm diameter, 32 mm deep, chamfered rim, 8 degree tilted face",
+      "name": "Custom closed-back clock body, 240 mm diameter, 32 mm deep, chamfered rim, 16 degree tilted face, concealed square tenon",
       "quantity": 1,
       "source": "default"
     },

@@ -8,12 +8,9 @@ seat_width=param("body_seat_width",5.3)
 rear_bevel=param("body_rear_chamfer",7.0)
 front_bevel=param("body_front_chamfer",1.0)
 tilt=param("body_tilt_angle",8.0)
-neck_w=param("body_neck_width",56.0)
 neck_h=param("body_neck_height",18.0)
-neck_reach=param("body_neck_reach",36.0)
 neck_y=param("body_neck_vertical",-50.0)
 neck_root=param("body_neck_root_depth",12.0)
-neck_blend=param("body_neck_corner_radius",4.0)
 tenon=param("body_tenon_width",20.0)
 tenon_l=param("body_tenon_length",25.0)
 tenon_offset=param("body_tenon_rear_offset",18.0)
@@ -33,10 +30,11 @@ cavity=cavity+Pos(0,0,back+ramp)*Cylinder(inner_r,depth,align=(Align.CENTER,Alig
 shell=blank.part-cavity
 ledge=Pos(0,0,seat_z-seat_thick)*extrude(Circle(inner_r)-Circle(inner_r-seat_width),amount=seat_thick)
 shell=Rot(-tilt,0,0)*(shell+ledge)
-neck=Pos(0,neck_y+neck_h/2,(neck_root-neck_reach)/2)*Box(neck_w,neck_h,neck_reach+neck_root)
-neck=fillet(neck.edges(),radius=neck_blend)
-pin=Pos(0,neck_y-tenon_l,-tenon_offset)*Box(tenon,tenon_l+neck_h/2,tenon,align=(Align.CENTER,Align.MIN,Align.CENTER))
-# Preserve the seating ledge; hollow only the support where it enters the existing cavity.
+# The entire root and square tenon sit below the base rim.
+# neck_y is the root top in the upright assembly frame.
+neck_reach=tenon_offset+tenon/2
+neck=Pos(0,neck_y-neck_h/2,(neck_root-neck_reach)/2)*Box(tenon,neck_h,neck_reach+neck_root)
+pin=Pos(0,neck_y-tenon_l,-tenon_offset)*Box(tenon,tenon_l,tenon,align=(Align.CENTER,Align.MIN,Align.CENTER))
 body=shell+((neck+pin)-(Rot(-tilt,0,0)*cavity))
 body.color=Color(0.94,0.53,0.025)
 assert len(body.solids())==1
