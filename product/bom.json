@@ -2,7 +2,7 @@
   "schema_version": 1,
   "status": "ready",
   "bom_ready": true,
-  "requirements_digest": "c8758d331d3619d9f94c19677c5f58fcc7eb79bf9a4d63d256c4d3c74400a5cd",
+  "requirements_digest": "9cf3b6a5f22ae2fdd13deafa5a78aeaf59545af78b43dbb0e34c28abfef8b1e0",
   "items": [
     {
       "id": "movement",
@@ -69,7 +69,7 @@
     },
     {
       "id": "white_markings",
-      "name": "White PETG relief regions: 12 hour blocks, 48 minute lines and numerals 1-12; co-print with dial at 0.6 mm relief",
+      "name": "White PETG relief regions: 12 hour blocks, 48 minute lines and reference-traced numerals 1-12, nominal numeral height 25 mm, relief 0.6 mm",
       "quantity": 1,
       "source": "default"
     }

@@ -82,7 +82,7 @@
           "target": "numerals",
           "order": 0,
           "path": "design/clock/source/parts/numerals/000-numerals.py",
-          "sha256": "c7767e1378e7e822d8365dbc05aa66135111dc76e51e905d9e573036511052bf"
+          "sha256": "667788eb62826952a5b08be803565514323a736bf3662ba301b6ca012f90dd73"
         }
       ],
       "dependencies": []
@@ -227,10 +227,10 @@
     {
       "id": "numerals",
       "target": "numerals",
-      "label": "White raised numerals",
+      "label": "Reference traced numerals",
       "material": "petg",
       "kind": "generated",
-      "shapeHash": "f6090712aa991ef0cb4a29e7eeb16851db3b981383e0e4f881d3f28b8615731f",
+      "shapeHash": "23f4fcdc9049a4bd12d2175a31a6c34c1e43e059be5417ce81e899e9ca96ee86",
       "transform": {
         "positionMm": [
           0,
@@ -254,7 +254,7 @@
   ],
   "assets": [],
   "fits": [],
-  "updatedAt": "2026-09-26T02:21:19.781Z",
+  "updatedAt": "2026-09-26T02:32:09.873Z",
   "parameters": {
     "base": {
       "base_width": 84,
@@ -311,7 +311,7 @@
     },
     "numerals": {
       "numerals_radius": 77,
-      "numerals_height": 28,
+      "numerals_height": 25,
       "numerals_relief_height": 0.6
     }
   }

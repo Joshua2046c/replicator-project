@@ -58,8 +58,9 @@
     "tick_radius": 101,
     "outer_tick_radius_max": 105.02,
     "numeral_center_radius": 77,
-    "numeral_height": 28,
+    "numeral_height": 25,
     "minimum_hand_underside_above_dial": 1.1,
-    "clearance_status": "Assembly target only; verify with actual movement and hands"
+    "clearance_status": "Assembly target only; verify with actual movement and hands",
+    "numeral_style": "Outlines traced directly from supplied image; one uniform image scale of 25 mm per 180 px preserves per-label proportions"
   }
 }

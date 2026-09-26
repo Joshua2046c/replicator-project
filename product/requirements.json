@@ -171,6 +171,14 @@
     "hand_minimum_underside_height_mm": {
       "value": 1.1,
       "source": "default"
+    },
+    "numeral_style": {
+      "value": "Strictly reproduce numeral outlines from the supplied reference image, including thin strokes, rounded ends, open shapes and the smaller round zero in 10; slightly reduce overall size",
+      "source": "user"
+    },
+    "numeral_height_nominal_mm": {
+      "value": 25,
+      "source": "default"
     }
   },
   "open_questions": []
