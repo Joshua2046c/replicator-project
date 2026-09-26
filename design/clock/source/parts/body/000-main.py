@@ -32,6 +32,23 @@ ledge=Pos(0,0,seat_z-seat_thick)*extrude(Circle(inner_r)-Circle(inner_r-seat_wid
 # Blind glue pocket, normal to the rear face; leaves 2.3 mm closed back.
 pocket=Pos(0,locator_y,-1)*Box(locator_w,locator_w,locator_depth+1,align=(Align.CENTER,Align.CENTER,Align.MIN))
 body=Rot(-tilt,0,0)*(shell+ledge-pocket)
+# Exact analytic surface partition for portable smooth meshing.
+# 3 degree patches retain the same circular surfaces and G1 tangent joins.
+# This bounds a possible perimeter chord sag to 0.042 mm at radius 120 mm.
+import math
+from OCP.ShapeUpgrade import ShapeUpgrade_ShapeDivideAngle
+from OCP.BRepGProp import BRepGProp
+from OCP.GProp import GProp_GProps
+def precise_volume(shape):
+    props=GProp_GProps()
+    BRepGProp.VolumeProperties_s(shape.wrapped,props,1e-9)
+    return props.Mass()
+_before_volume=precise_volume(body)
+divider=ShapeUpgrade_ShapeDivideAngle(math.radians(3.0),body.wrapped)
+divider.Perform()
+body=Part(divider.Result())
+assert len(body.solids())==1
+assert abs(precise_volume(body)-_before_volume)<0.001, (precise_volume(body),_before_volume)
 body.color=Color(0.94,0.53,0.025)
 assert len(body.solids())==1
 publish("body",body,"Recessed clock body",material="petg")

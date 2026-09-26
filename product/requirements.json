@@ -191,6 +191,10 @@
     "dial_back_edge_radius_mm": {
       "value": 0.5,
       "source": "default"
+    },
+    "smooth_circular_perimeter": {
+      "value": "Eliminate visible polygonal facets around the entire dial and body perimeter; smoothly continuous circular silhouette",
+      "source": "user"
     }
   },
   "open_questions": []

@@ -2,7 +2,7 @@
   "schema_version": 1,
   "status": "ready",
   "bom_ready": true,
-  "requirements_digest": "77f9868bfa57d5723d80ffbd4c7cc59c50671cac2fbed4aaa8611461bf3206ea",
+  "requirements_digest": "dbed7f4bc3fff2adb961bad8ab69a683cd317467df6806dcd4fa001ceab28e32",
   "items": [
     {
       "id": "movement",

@@ -26,7 +26,7 @@
           "target": "body",
           "order": 0,
           "path": "design/clock/source/parts/body/000-main.py",
-          "sha256": "7bfff462ce9e29999fec18c55d445de869f9b708e33fbab905f24ee7ffb57756"
+          "sha256": "b6bd40b31f58719d07b738895e9e703f81ae8d40bbbac9ed415314c34bd31831"
         }
       ],
       "dependencies": []
@@ -40,7 +40,7 @@
           "target": "dial",
           "order": 0,
           "path": "design/clock/source/parts/dial/000-dial.py",
-          "sha256": "3de3347a1fd5217a7a6ea2bf3f0f8bf60799e152d52025817f10bee65f4074b5"
+          "sha256": "fb48484ee419d0b09401ed6076987247eaa8954d949fd9e0a3a5df0e9b63feda"
         }
       ],
       "dependencies": []
@@ -122,7 +122,7 @@
       "label": "Recessed clock body",
       "material": "petg",
       "kind": "generated",
-      "shapeHash": "b439ade6b3f1635fef16bd5bad5df655d48c868b6e4f751f13548d21e6732212",
+      "shapeHash": "a679a1e15ba4cb691ff33c1d67bcf501ce74fb6c7aa7877b69e3a57704731f1e",
       "transform": {
         "positionMm": [
           0,
@@ -149,7 +149,7 @@
       "label": "Nested dial",
       "material": "petg",
       "kind": "generated",
-      "shapeHash": "85621d41ef9f6f6146d7dcf4fdf0206a9596988bfa8ecfb9a1b9205210af38da",
+      "shapeHash": "ffef53f87f1ece5630d5a66cfb79c74cccc6a2bcdf589070bbc8827a62ceef39",
       "transform": {
         "positionMm": [
           0,
@@ -254,7 +254,7 @@
   ],
   "assets": [],
   "fits": [],
-  "updatedAt": "2026-09-26T02:43:02.564Z",
+  "updatedAt": "2026-09-26T14:11:54.298Z",
   "parameters": {
     "base": {
       "base_width": 84,
