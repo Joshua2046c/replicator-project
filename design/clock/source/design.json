@@ -58,6 +58,34 @@
         }
       ],
       "dependencies": []
+    },
+    {
+      "id": "markings",
+      "label": "markings",
+      "cells": [
+        {
+          "id": "markings",
+          "target": "markings",
+          "order": 0,
+          "path": "design/clock/source/parts/markings/000-markings.py",
+          "sha256": "2d13b49f2392ce92c9e02bea836f5090e68f16545a5320b24cc761550cc4c1c1"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "numerals",
+      "label": "numerals",
+      "cells": [
+        {
+          "id": "numerals",
+          "target": "numerals",
+          "order": 0,
+          "path": "design/clock/source/parts/numerals/000-numerals.py",
+          "sha256": "c7767e1378e7e822d8365dbc05aa66135111dc76e51e905d9e573036511052bf"
+        }
+      ],
+      "dependencies": []
     }
   ],
   "objects": [
@@ -168,11 +196,65 @@
         ]
       },
       "datums": []
+    },
+    {
+      "id": "markings",
+      "target": "markings",
+      "label": "White raised ticks",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "8250b459ebcb69d9ec60b32a27ed342c6cc5198eac936f7ee0478b6d7b1e2099",
+      "transform": {
+        "positionMm": [
+          0,
+          -35.005869078577796,
+          175.82810090520277
+        ],
+        "rotationDeg": [
+          74,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "numerals",
+      "target": "numerals",
+      "label": "White raised numerals",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "f6090712aa991ef0cb4a29e7eeb16851db3b981383e0e4f881d3f28b8615731f",
+      "transform": {
+        "positionMm": [
+          0,
+          -35.005869078577796,
+          175.82810090520277
+        ],
+        "rotationDeg": [
+          74,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
     }
   ],
   "assets": [],
   "fits": [],
-  "updatedAt": "2026-09-26T01:57:20.995Z",
+  "updatedAt": "2026-09-26T02:21:19.781Z",
   "parameters": {
     "base": {
       "base_width": 84,
@@ -218,6 +300,19 @@
       "locator_width": 12,
       "locator_thickness": 5,
       "locator_edge_chamfer": 0.2
+    },
+    "markings": {
+      "markings_tick_radius": 101,
+      "markings_hour_length": 8,
+      "markings_hour_width": 4,
+      "markings_minute_length": 6,
+      "markings_minute_width": 0.9,
+      "markings_relief_height": 0.6
+    },
+    "numerals": {
+      "numerals_radius": 77,
+      "numerals_height": 28,
+      "numerals_relief_height": 0.6
     }
   }
 }

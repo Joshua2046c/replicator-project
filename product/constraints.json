@@ -52,5 +52,14 @@
     "glue_bed_each_end": 0.2,
     "remaining_body_back_wall": 2.3,
     "bonding": "User-supplied glue; dry-fit first and support assembly until cured; strength not physically tested"
+  },
+  "dial_relief": {
+    "height": 0.6,
+    "tick_radius": 101,
+    "outer_tick_radius_max": 105.02,
+    "numeral_center_radius": 77,
+    "numeral_height": 28,
+    "minimum_hand_underside_above_dial": 1.1,
+    "clearance_status": "Assembly target only; verify with actual movement and hands"
   }
 }

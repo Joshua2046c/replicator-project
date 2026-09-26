@@ -18,7 +18,7 @@
       "source": "user"
     },
     "dial_shape": {
-      "value": "指针范围纯平，外缘微弧翘起，钟主体包住盘面",
+      "value": "Flat underlying hand-sweep surface with raised white dial markings per latest reference; slightly upturned outer edge nested in clock body",
       "source": "user"
     },
     "hand_length_mm": {
@@ -150,6 +150,26 @@
     },
     "storage_depth_mm": {
       "value": 125,
+      "source": "default"
+    },
+    "dial_markings": {
+      "value": "White raised clock markings following the supplied image",
+      "source": "user"
+    },
+    "dial_markings_layout": {
+      "value": {
+        "hour_blocks": 12,
+        "minute_lines": 48,
+        "upright_numerals": "1-12"
+      },
+      "source": "default"
+    },
+    "dial_markings_height_mm": {
+      "value": 0.6,
+      "source": "default"
+    },
+    "hand_minimum_underside_height_mm": {
+      "value": 1.1,
       "source": "default"
     }
   },

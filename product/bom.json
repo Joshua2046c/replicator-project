@@ -2,7 +2,7 @@
   "schema_version": 1,
   "status": "ready",
   "bom_ready": true,
-  "requirements_digest": "d7581e5562e7623ef6332980c2b17d467358cb3080c8347fd6ab6fc1781ca306",
+  "requirements_digest": "c8758d331d3619d9f94c19677c5f58fcc7eb79bf9a4d63d256c4d3c74400a5cd",
   "items": [
     {
       "id": "movement",
@@ -29,7 +29,7 @@
     },
     {
       "id": "dial",
-      "name": "Custom flat-center raised-edge dial",
+      "name": "Custom nested flat-center dial with white 0.6 mm raised hour blocks, minute ticks and numerals 1-12",
       "quantity": 1,
       "source": "default"
     },
@@ -66,12 +66,19 @@
       "quantity": 1,
       "source": "user",
       "procurement_status": "external_procurement_required"
+    },
+    {
+      "id": "white_markings",
+      "name": "White PETG relief regions: 12 hour blocks, 48 minute lines and numerals 1-12; co-print with dial at 0.6 mm relief",
+      "quantity": 1,
+      "source": "default"
     }
   ],
   "unresolved_items": [],
   "supply_risks": [
     "Movement STEP unavailable; cavity uses published common housing envelope, not an exact asset fit check.",
     "14 mm total shaft does not specify threaded length; confirm nut engages on the 2.4 mm dial with supplied washer before final assembly.",
-    "User states 90 mm maximum; image labels minute hand 102 mm. Flat radius 108 mm accommodates both."
+    "User states 90 mm maximum; image labels minute hand 102 mm. Flat radius 108 mm accommodates both.",
+    "Raised marks require hand underside at least 1.1 mm above the flat dial for a nominal 0.5 mm running gap; 14 mm total shaft length alone does not prove this clearance."
   ]
 }
