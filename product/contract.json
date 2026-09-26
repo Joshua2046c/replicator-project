@@ -2,12 +2,12 @@
   "version": 2,
   "artifact_level": "assembly",
   "deliverable_intent": "printable_part",
-  "summary": "三件式收纳石英座钟",
+  "summary": "Storage clock: three main pieces plus a separate small glue locator",
   "required_interfaces": [
     {
       "id": "tenon",
       "kind": "mechanical_joint",
-      "description": "底座与钟体方榫连接",
+      "description": "Separate small square locator between blind recesses, adhesive bond",
       "source": "user_requested",
       "required": true
     },
@@ -35,7 +35,7 @@
     }
   ],
   "assembly_story": {
-    "installation": "安装钟芯及盘面，钟体方榫插入底座",
+    "installation": "Dry-fit the separate locator, bond it in the base and body blind recesses, cure while supported, then install movement and removable dial",
     "maintenance": "Remove the nested dial with its attached movement from the front to replace the AA battery; rear face is completely closed.",
     "user_access": [
       "顶部收纳口",
@@ -48,7 +48,7 @@
       {
         "role": "clock",
         "design_id": "clock",
-        "description": "三件式收纳座钟",
+        "description": "Storage clock with projecting neck base and separate glue locator",
         "delivery_target": "printable_part",
         "required_formats": [
           "step"

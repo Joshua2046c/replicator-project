@@ -1,0 +1,99 @@
+{
+  "designId": "clock",
+  "revision": "3d1236fd406d0eef81fb449fe09eb8550a3b98c067a2fd6898c17f334540f53b",
+  "schemaVersion": 2,
+  "exportId": "export-db1cbd306b24b04f4ac3530d7a82141b",
+  "generatedAt": "2026-09-26T01:53:38.133Z",
+  "designSha256": "8c7990f449620b3507f42a9ba546c923a6fff5c5e6f8a75ee32ce98858546938",
+  "role": "clock",
+  "stateHash": "aa509dfcf5d07bbcbd12f17724cd3277ce7ea83b360c351ce990015fc1f3cca1",
+  "stateManifest": {
+    "schemaVersion": 3,
+    "designId": "clock",
+    "role": "clock",
+    "design": {
+      "revision": "3d1236fd406d0eef81fb449fe09eb8550a3b98c067a2fd6898c17f334540f53b",
+      "designSha256": "dab97d7e4e2e0bab5628127f77a7f04069028efd8de4bbbdd415214268bc5708",
+      "manifestSha256": "ea7ddb6e3a18075950eeb9905ee759b68f84aecb059b2514a3b08cec0342131e",
+      "stepSha256": "0de3b06329f95cd9d395b2a9711f39bc791c533b3c59b6b2672008383e76cf21",
+      "pcbReleases": []
+    },
+    "brief": {
+      "path": "design/clock/README.md",
+      "sha256": "c5c43fa43a2f80578b361dcc72e1021fb71b2efa0a25b315b7bd4bcf4550ed32"
+    },
+    "requirement": {
+      "artifactContractPath": "product/contract.json",
+      "artifactContractSha256": "901d0abdc0fe19471fed0512882d8f9e0f3f205debbc5efdff356b013aed837a",
+      "designRequirementSha256": "72a9efad6c85d4f4eae85f29b23ad7e597b73e9f6e90d4135c816a64e711a86a",
+      "inputs": []
+    },
+    "delivery": {
+      "target": "printable_part",
+      "formats": [
+        "step"
+      ]
+    },
+    "stateHash": "aa509dfcf5d07bbcbd12f17724cd3277ce7ea83b360c351ce990015fc1f3cca1"
+  },
+  "buildArtifacts": {
+    "manifestSha256": "ea7ddb6e3a18075950eeb9905ee759b68f84aecb059b2514a3b08cec0342131e",
+    "stepSha256": "0de3b06329f95cd9d395b2a9711f39bc791c533b3c59b6b2672008383e76cf21"
+  },
+  "exportAlgorithm": {
+    "version": 1,
+    "bootstrapSha256": "f4939328ef685300fcdaa250c860428f6b9e009d10931b20d36728e55e0029e4"
+  },
+  "sourceHashes": {
+    "base/main": "633a60bf1f7d42228a1c179251cc2e5144cd4c8af8ae86c8aa9ec2c331241816",
+    "body/main": "0e12191deef71ffc0b3f46fb90e75bd5b5f4acde17dd66355dad3d42331fae90",
+    "dial/dial": "ec7185ae5dbe822d4b55595699ea84f0331e5529fd3a049bd13bb938bf28bf6b",
+    "locator/locator": "26f31d5ca8c987060f001b8f07c306cdece47ac4ea131a864a21936d3d64cb23"
+  },
+  "assetHashes": {},
+  "shapeHashes": {
+    "base": "960710a35dc27682fccc09638bf7e87246b1a0c0c8337f8ab715a21b2cc355fb",
+    "body": "627d7bc3f7084a15fe801d015c5adf23b1c2bd7059dcb3292f5e0d9e70450a2d",
+    "dial": "75edaec36dd107b44b99fd62c9e135a847b20f12acba6a46fd013e55c9e543cc",
+    "locator": "c359ab7043e56480e1748d34b1f8cd1688f46d008dfa0c51c1d53bbf652fac53"
+  },
+  "runtime": {
+    "manifestHash": "56a1de5d760e9f5c1dd991c57c86f24fbfb7da361b3d55b9d4cb65cdabe66a74",
+    "pythonVersion": "3.12.13",
+    "build123dVersion": "0.10.0",
+    "ocpVersion": "7.8.1.1.post1",
+    "cadpyHash": "e8b3788bab31d790595e4c3306dda85dfe057c87a4fc64f7ef3eab254239b7ba"
+  },
+  "artifacts": [
+    {
+      "path": "manufacturing/clock/releases/export-db1cbd306b24b04f4ac3530d7a82141b/model.step",
+      "role": "model/step",
+      "sha256": "0de3b06329f95cd9d395b2a9711f39bc791c533b3c59b6b2672008383e76cf21",
+      "sizeBytes": 457970
+    }
+  ],
+  "interference": {
+    "summary": "No interference across 6 object pairs.",
+    "counts": {
+      "objects": 4,
+      "pairs": 6,
+      "exact": 0,
+      "cached": 6,
+      "interference": 0,
+      "undeclared": 0,
+      "over_budget": 0,
+      "undetermined": 0
+    },
+    "overlaps": []
+  },
+  "authority": {
+    "version": 1,
+    "algorithm": "hmac-sha256",
+    "keyId": "208b76e9a2655818165e77ecb9e93644",
+    "projectId": "60b84c38-422d-4b10-9988-4fe3fe272030",
+    "receiptPath": "manufacturing/clock/releases/export-db1cbd306b24b04f4ac3530d7a82141b/receipt.json",
+    "payloadSha256": "c5324747a24d1797ee252a14cfd13bf44799387aa6f56b80f015af003f831d64",
+    "mac": "fe8c58d5f1c4ca40db445994acf3b66d016d9b1a07d3945be7b454857e49ccf3"
+  },
+  "status": "handoff"
+}

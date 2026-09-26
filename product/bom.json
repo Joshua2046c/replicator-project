@@ -2,7 +2,7 @@
   "schema_version": 1,
   "status": "ready",
   "bom_ready": true,
-  "requirements_digest": "9be40a25cdd6d301efd5f6e53c9e632849d88cc28fa0b2ca053dbb3bdccbdb93",
+  "requirements_digest": "36f6a5fd7ee7311aa08ef094a54ee0a6475db1e93bb0b94d0db6987b0f79db6b",
   "items": [
     {
       "id": "movement",
@@ -17,13 +17,13 @@
     },
     {
       "id": "base",
-      "name": "Custom tangent storage base, 84 x 90 mm footprint, 160 mm high, shoulder depth 98.61 mm, concealed square mortise",
+      "name": "Custom storage base with projecting neck and concave throat; 84 x 103.15 x 160 mm envelope, 12.5 mm square glue recess 4.2 mm deep",
       "quantity": 1,
       "source": "default"
     },
     {
       "id": "body",
-      "name": "Custom closed-back clock body, 240 mm diameter, 32 mm deep, chamfered rim, 16 degree tilted face, concealed square tenon",
+      "name": "Custom closed-back clock body, 240 mm diameter, 32 mm deep, 16 degree tilt; 12.5 mm square blind glue recess 1.2 mm deep",
       "quantity": 1,
       "source": "default"
     },
@@ -52,6 +52,19 @@
       "name": "Removable 0.2 mm double-sided adhesive pads; replace pads when dial is removed for battery service",
       "quantity": 1,
       "source": "default",
+      "procurement_status": "external_procurement_required"
+    },
+    {
+      "id": "locator",
+      "name": "Custom separate square locating block, 12 x 12 x 5 mm, 0.2 mm edge chamfer",
+      "quantity": 1,
+      "source": "default"
+    },
+    {
+      "id": "joint_adhesive",
+      "name": "User-supplied adhesive suitable for the selected printed material; 0.2 mm glue beds in locator recesses",
+      "quantity": 1,
+      "source": "user",
       "procurement_status": "external_procurement_required"
     }
   ],

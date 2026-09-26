@@ -8,12 +8,13 @@
       "value": [
         "顶部收纳底座",
         "加厚钟主体",
-        "嵌套盘面"
+        "嵌套盘面",
+        "Separate small square locator for adhesive assembly"
       ],
       "source": "user"
     },
     "base_joint": {
-      "value": "方榫连接",
+      "value": "Small separate square locator; shallow blind recess in clock body; adhesive assembly",
       "source": "user"
     },
     "dial_shape": {
@@ -51,7 +52,7 @@
     "base_size_mm": {
       "value": [
         84,
-        98.61,
+        103.15,
         160
       ],
       "source": "default"
@@ -99,13 +100,45 @@
     "base_footprint_mm": {
       "value": [
         84,
-        90
+        92
       ],
       "source": "default"
     },
     "concealed_tangent_joint": {
       "value": "Increase backward tilt; clock body meets the base tangentially, with the square connection fully concealed.",
       "source": "user"
+    },
+    "base_profile": {
+      "value": "Forward-projecting neck with a rounded concave underside; rear may taper inward slightly",
+      "source": "user"
+    },
+    "locator_size_mm": {
+      "value": [
+        12,
+        12,
+        5
+      ],
+      "source": "default"
+    },
+    "body_locator_recess_mm": {
+      "value": [
+        12.5,
+        12.5,
+        1.2
+      ],
+      "source": "default"
+    },
+    "base_locator_recess_mm": {
+      "value": [
+        12.5,
+        12.5,
+        4.2
+      ],
+      "source": "default"
+    },
+    "base_rear_inset_mm": {
+      "value": 8,
+      "source": "default"
     }
   },
   "open_questions": []

@@ -8,13 +8,9 @@ seat_width=param("body_seat_width",5.3)
 rear_bevel=param("body_rear_chamfer",7.0)
 front_bevel=param("body_front_chamfer",1.0)
 tilt=param("body_tilt_angle",8.0)
-neck_h=param("body_neck_height",18.0)
-neck_y=param("body_neck_vertical",-50.0)
-neck_root=param("body_neck_root_depth",12.0)
-tenon=param("body_tenon_width",20.0)
-tenon_l=param("body_tenon_length",25.0)
-tenon_offset=param("body_tenon_rear_offset",18.0)
-# Disc is angled relative to the upright tenon within this rigid part.
+locator_w=param("body_locator_width",12.5)
+locator_depth=param("body_locator_depth",1.2)
+locator_y=param("body_locator_y",-24.0)
 r=dia/2
 with BuildPart() as blank:
     with BuildSketch(Plane.XZ):
@@ -29,13 +25,9 @@ cavity=Pos(0,0,back)*Cone(inner_start,inner_r,ramp,align=(Align.CENTER,Align.CEN
 cavity=cavity+Pos(0,0,back+ramp)*Cylinder(inner_r,depth,align=(Align.CENTER,Align.CENTER,Align.MIN))
 shell=blank.part-cavity
 ledge=Pos(0,0,seat_z-seat_thick)*extrude(Circle(inner_r)-Circle(inner_r-seat_width),amount=seat_thick)
-shell=Rot(-tilt,0,0)*(shell+ledge)
-# The entire root and square tenon sit below the base rim.
-# neck_y is the root top in the upright assembly frame.
-neck_reach=tenon_offset+tenon/2
-neck=Pos(0,neck_y-neck_h/2,(neck_root-neck_reach)/2)*Box(tenon,neck_h,neck_reach+neck_root)
-pin=Pos(0,neck_y-tenon_l,-tenon_offset)*Box(tenon,tenon_l,tenon,align=(Align.CENTER,Align.MIN,Align.CENTER))
-body=shell+((neck+pin)-(Rot(-tilt,0,0)*cavity))
+# Blind glue pocket, normal to the rear face; leaves 2.3 mm closed back.
+pocket=Pos(0,locator_y,-1)*Box(locator_w,locator_w,locator_depth+1,align=(Align.CENTER,Align.CENTER,Align.MIN))
+body=Rot(-tilt,0,0)*(shell+ledge-pocket)
 body.color=Color(0.94,0.53,0.025)
 assert len(body.solids())==1
-publish("body",body,"Closed clock body",material="petg")
+publish("body",body,"Recessed clock body",material="petg")

@@ -12,7 +12,7 @@
           "target": "base",
           "order": 0,
           "path": "design/clock/source/parts/base/000-main.py",
-          "sha256": "52e7ab0e9b7c546f45f6cea3c5be6c36ca4edef5029b13761b8982a2aab07e41"
+          "sha256": "633a60bf1f7d42228a1c179251cc2e5144cd4c8af8ae86c8aa9ec2c331241816"
         }
       ],
       "dependencies": []
@@ -26,7 +26,7 @@
           "target": "body",
           "order": 0,
           "path": "design/clock/source/parts/body/000-main.py",
-          "sha256": "52702db40d2c0a48add59ac291b1d8387487997440da39aeb1dbefe006fccbad"
+          "sha256": "0e12191deef71ffc0b3f46fb90e75bd5b5f4acde17dd66355dad3d42331fae90"
         }
       ],
       "dependencies": []
@@ -44,16 +44,30 @@
         }
       ],
       "dependencies": []
+    },
+    {
+      "id": "locator",
+      "label": "locator",
+      "cells": [
+        {
+          "id": "locator",
+          "target": "locator",
+          "order": 0,
+          "path": "design/clock/source/parts/locator/000-locator.py",
+          "sha256": "26f31d5ca8c987060f001b8f07c306cdece47ac4ea131a864a21936d3d64cb23"
+        }
+      ],
+      "dependencies": []
     }
   ],
   "objects": [
     {
       "id": "base",
       "target": "base",
-      "label": "Tangent storage base",
+      "label": "Extended neck base",
       "material": "petg",
       "kind": "generated",
-      "shapeHash": "4e40eb8e0e7a32431db5622e50946ece04cfd3feae0b895e6dd01b9f90e7d3f9",
+      "shapeHash": "960710a35dc27682fccc09638bf7e87246b1a0c0c8337f8ab715a21b2cc355fb",
       "transform": {
         "positionMm": [
           0,
@@ -77,10 +91,10 @@
     {
       "id": "body",
       "target": "body",
-      "label": "Closed clock body",
+      "label": "Recessed clock body",
       "material": "petg",
       "kind": "generated",
-      "shapeHash": "92ac2dd8e5eb8847320adf0c75ffc793dfb5786bcc7deb7c1b71bfcecae9d7ad",
+      "shapeHash": "627d7bc3f7084a15fe801d015c5adf23b1c2bd7059dcb3292f5e0d9e70450a2d",
       "transform": {
         "positionMm": [
           0,
@@ -127,11 +141,38 @@
         ]
       },
       "datums": []
+    },
+    {
+      "id": "locator",
+      "target": "locator",
+      "label": "Separate square locator",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "c359ab7043e56480e1748d34b1f8cd1688f46d008dfa0c51c1d53bbf652fac53",
+      "transform": {
+        "positionMm": [
+          0,
+          -12.879440909630038,
+          144.51626326375484
+        ],
+        "rotationDeg": [
+          74,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
     }
   ],
   "assets": [],
   "fits": [],
-  "updatedAt": "2026-09-26T01:28:30.900Z",
+  "updatedAt": "2026-09-26T01:53:38.133Z",
   "parameters": {
     "base": {
       "base_width": 84,
@@ -140,14 +181,16 @@
       "base_wall": 3,
       "base_floor": 6,
       "base_corner_radius": 18,
-      "base_storage_front": 38,
-      "base_socket_width": 20.5,
-      "base_socket_depth": 25.5,
-      "base_socket_y": 20.293963086070463,
+      "base_storage_front": 24,
       "base_lip_radius": 0.8,
       "base_contact_angle": 16,
-      "base_contact_height": 30,
-      "base_root_recess_height": 15.25
+      "base_front_foot_extension": 10,
+      "base_neck_inset": 24,
+      "base_neck_underside_height": 114,
+      "base_rear_inset": 8,
+      "base_locator_width": 12.5,
+      "base_locator_depth": 4.2,
+      "base_locator_drop": 15.070280702519653
     },
     "body": {
       "body_diameter": 240,
@@ -157,15 +200,12 @@
       "body_seat_height": 25.8,
       "body_seat_thickness": 2.8,
       "body_seat_width": 5.3,
-      "body_neck_height": 15,
-      "body_neck_vertical": -8,
-      "body_tenon_width": 20,
-      "body_tenon_length": 25,
-      "body_tenon_rear_offset": 18,
       "body_rear_chamfer": 7,
       "body_front_chamfer": 1,
       "body_tilt_angle": 16,
-      "body_neck_root_depth": 12
+      "body_locator_width": 12.5,
+      "body_locator_depth": 1.2,
+      "body_locator_y": -24
     },
     "dial": {
       "dial_diameter": 234,
@@ -173,6 +213,11 @@
       "dial_thickness": 2.4,
       "dial_edge_rise": 3,
       "dial_shaft_hole_diameter": 10
+    },
+    "locator": {
+      "locator_width": 12,
+      "locator_thickness": 5,
+      "locator_edge_chamfer": 0.2
     }
   }
 }

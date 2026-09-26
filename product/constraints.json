@@ -32,5 +32,25 @@
   "fitting_clearance_per_side": {
     "value": 0.25,
     "source": "default"
+  },
+  "adhesive_locator": {
+    "locator_size": [
+      12,
+      12,
+      5
+    ],
+    "body_recess": [
+      12.5,
+      12.5,
+      1.2
+    ],
+    "base_recess": [
+      12.5,
+      12.5,
+      4.2
+    ],
+    "glue_bed_each_end": 0.2,
+    "remaining_body_back_wall": 2.3,
+    "bonding": "User-supplied glue; dry-fit first and support assembly until cured; strength not physically tested"
   }
 }
