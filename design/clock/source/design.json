@@ -67,7 +67,7 @@
       "label": "Extended neck base",
       "material": "petg",
       "kind": "generated",
-      "shapeHash": "960710a35dc27682fccc09638bf7e87246b1a0c0c8337f8ab715a21b2cc355fb",
+      "shapeHash": "42cc351622513bedf6b46b328ddb31cd2f9efa6e2917779c75b426c691e95ff8",
       "transform": {
         "positionMm": [
           0,
@@ -172,14 +172,14 @@
   ],
   "assets": [],
   "fits": [],
-  "updatedAt": "2026-09-26T01:53:38.133Z",
+  "updatedAt": "2026-09-26T01:57:20.995Z",
   "parameters": {
     "base": {
       "base_width": 84,
       "base_depth": 90,
       "base_height": 160,
       "base_wall": 3,
-      "base_floor": 6,
+      "base_floor": 35,
       "base_corner_radius": 18,
       "base_storage_front": 24,
       "base_lip_radius": 0.8,
