@@ -2,7 +2,7 @@
   "schema_version": 1,
   "status": "ready",
   "bom_ready": true,
-  "requirements_digest": "dbed7f4bc3fff2adb961bad8ab69a683cd317467df6806dcd4fa001ceab28e32",
+  "requirements_digest": "623f1a6beb61a02399dff7e22c9b3d5eca25ef43f07d41be0bc9a9bc9e76b4d5",
   "items": [
     {
       "id": "movement",
@@ -17,13 +17,13 @@
     },
     {
       "id": "base",
-      "name": "Custom storage base with projecting neck and concave throat; 84 x 103.15 x 160 mm envelope, 12.5 mm square glue recess 4.2 mm deep; storage depth 125 mm, floor 35 mm above the foot",
+      "name": "Custom storage base with projecting neck and concave throat; 84 x 103.15 x 160 mm envelope, 14.5 mm square glue recess 4.2 mm deep; storage depth 125 mm, floor 35 mm above the foot",
       "quantity": 1,
       "source": "default"
     },
     {
       "id": "body",
-      "name": "Custom closed-back clock body, 240 mm diameter, 32 mm deep, 16 degree tilt; tangent rear R7 and front R1 rounds, inner lip R0.8; 12.5 mm square blind glue recess 1.2 mm deep",
+      "name": "Custom closed-back clock body, 240 mm diameter, 32 mm deep, 16 degree tilt; tangent rear R7 and front R1 rounds, inner lip R0.8; 14.5 mm square blind glue recess 2 mm deep",
       "quantity": 1,
       "source": "default"
     },
@@ -56,7 +56,7 @@
     },
     {
       "id": "locator",
-      "name": "Custom separate square locating block, 12 x 12 x 5 mm, 0.2 mm edge chamfer",
+      "name": "Custom separate square locating block, 14 x 14 x 5.8 mm, 0.2 mm edge chamfer",
       "quantity": 1,
       "source": "default"
     },

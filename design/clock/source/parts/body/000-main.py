@@ -29,7 +29,8 @@ mouth_edges=[e for e in shell.edges() if e.geom_type==GeomType.CIRCLE and abs(e.
 assert len(mouth_edges)==1
 shell=fillet(mouth_edges,radius=mouth_radius)
 ledge=Pos(0,0,seat_z-seat_thick)*extrude(Circle(inner_r)-Circle(inner_r-seat_width),amount=seat_thick)
-# Blind glue pocket, normal to the rear face; leaves 2.3 mm closed back.
+# Blind glue pocket normal to the rear face; keep at least 1.5 mm closed back.
+assert back-locator_depth >= 1.5-1e-6
 pocket=Pos(0,locator_y,-1)*Box(locator_w,locator_w,locator_depth+1,align=(Align.CENTER,Align.CENTER,Align.MIN))
 body=Rot(-tilt,0,0)*(shell+ledge-pocket)
 # Exact analytic surface partition for portable smooth meshing.

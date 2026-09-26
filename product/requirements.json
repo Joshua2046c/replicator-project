@@ -106,24 +106,24 @@
     },
     "locator_size_mm": {
       "value": [
-        12,
-        12,
-        5
+        14,
+        14,
+        5.8
       ],
       "source": "default"
     },
     "body_locator_recess_mm": {
       "value": [
-        12.5,
-        12.5,
-        1.2
+        14.5,
+        14.5,
+        2.0
       ],
       "source": "default"
     },
     "base_locator_recess_mm": {
       "value": [
-        12.5,
-        12.5,
+        14.5,
+        14.5,
         4.2
       ],
       "source": "default"
@@ -194,6 +194,10 @@
     },
     "smooth_circular_perimeter": {
       "value": "Eliminate visible polygonal facets around the entire dial and body perimeter; smoothly continuous circular silhouette",
+      "source": "user"
+    },
+    "locator_refinement": {
+      "value": "Slightly enlarge the separate square locator and deepen the marked blind recess on the clock back",
       "source": "user"
     }
   },

@@ -1,26 +1,26 @@
 {
   "designId": "clock",
-  "revision": "164137abb68efe3d4371c5b94daef3d29220f6f8974be2471d5f9688508c148a",
+  "revision": "ae39939e3f5a057eec0bedccb877c09f0d76dd85b5e6905fdd2ff917127b7b76",
   "schemaVersion": 2,
-  "exportId": "export-2c88ab4e37368f2a72712c28b40685eb",
-  "generatedAt": "2026-09-26T14:11:54.298Z",
-  "designSha256": "a84e719add224bb163765f58cb3407ae0e3084ff7d9e37518973596ff9b1185a",
+  "exportId": "export-2df198c734dd71e33036b27a3d9e1ba4",
+  "generatedAt": "2026-09-26T14:25:25.399Z",
+  "designSha256": "7aebc937a97dd83548c5a3ef60d224f73ad39654ba8626f0526385fc8d08419a",
   "role": "clock",
-  "stateHash": "236df73882313c215ca65dfe1f3c32dee7304a626f8c2a28d0fae10f537ee4aa",
+  "stateHash": "b573c312da98a5ec2292e42d8469d6ae3f1f8f5ae36b9bdf0128cd66b4911589",
   "stateManifest": {
     "schemaVersion": 3,
     "designId": "clock",
     "role": "clock",
     "design": {
-      "revision": "164137abb68efe3d4371c5b94daef3d29220f6f8974be2471d5f9688508c148a",
-      "designSha256": "198e2718921ed809ee4f94609f9aacf3a36b356afd98e677ec20a212f8c6f8ea",
-      "manifestSha256": "b5ad700342f0edadd0e64534a8ca56f1b918da932ce1b6e55a63c0bab6d83f71",
-      "stepSha256": "00f0d73a5d18f27d64fd723824ddb71f4fe567cee89f148e3ecf3fc44a51a1ae",
+      "revision": "ae39939e3f5a057eec0bedccb877c09f0d76dd85b5e6905fdd2ff917127b7b76",
+      "designSha256": "392bbf81b11d5c8198485b2321c0785a4bc1499489a032a8dcb6d3ba9481b826",
+      "manifestSha256": "3b85b4860f004c7d90a41c22b9fb1b9483a003bece67f7a2fe5e5f7298681427",
+      "stepSha256": "0a2117621486708eaad6636f75acbeb3ee3012870078f13ac712a699ee55cbc6",
       "pcbReleases": []
     },
     "brief": {
       "path": "design/clock/README.md",
-      "sha256": "dff819e685276cfe95675ce931b5fc78ecf10ed2ece418689331f22a1911f710"
+      "sha256": "490401d067b5f487889bbc084b5ff133e0f93a6161db28c01ee9d23c8e26091b"
     },
     "requirement": {
       "artifactContractPath": "product/contract.json",
@@ -34,11 +34,11 @@
         "step"
       ]
     },
-    "stateHash": "236df73882313c215ca65dfe1f3c32dee7304a626f8c2a28d0fae10f537ee4aa"
+    "stateHash": "b573c312da98a5ec2292e42d8469d6ae3f1f8f5ae36b9bdf0128cd66b4911589"
   },
   "buildArtifacts": {
-    "manifestSha256": "b5ad700342f0edadd0e64534a8ca56f1b918da932ce1b6e55a63c0bab6d83f71",
-    "stepSha256": "00f0d73a5d18f27d64fd723824ddb71f4fe567cee89f148e3ecf3fc44a51a1ae"
+    "manifestSha256": "3b85b4860f004c7d90a41c22b9fb1b9483a003bece67f7a2fe5e5f7298681427",
+    "stepSha256": "0a2117621486708eaad6636f75acbeb3ee3012870078f13ac712a699ee55cbc6"
   },
   "exportAlgorithm": {
     "version": 1,
@@ -46,7 +46,7 @@
   },
   "sourceHashes": {
     "base/main": "633a60bf1f7d42228a1c179251cc2e5144cd4c8af8ae86c8aa9ec2c331241816",
-    "body/main": "b6bd40b31f58719d07b738895e9e703f81ae8d40bbbac9ed415314c34bd31831",
+    "body/main": "07134f6844c51e01f40899ad44efcb9b25e267991c785efb9a2a14cab873ec46",
     "dial/dial": "fb48484ee419d0b09401ed6076987247eaa8954d949fd9e0a3a5df0e9b63feda",
     "locator/locator": "26f31d5ca8c987060f001b8f07c306cdece47ac4ea131a864a21936d3d64cb23",
     "markings/markings": "2d13b49f2392ce92c9e02bea836f5090e68f16545a5320b24cc761550cc4c1c1",
@@ -54,10 +54,10 @@
   },
   "assetHashes": {},
   "shapeHashes": {
-    "base": "42cc351622513bedf6b46b328ddb31cd2f9efa6e2917779c75b426c691e95ff8",
-    "body": "a679a1e15ba4cb691ff33c1d67bcf501ce74fb6c7aa7877b69e3a57704731f1e",
+    "base": "aa03d6d6585b401e360447e8fa19553df5650b82d8675558e2123e2d3f7e160f",
+    "body": "ba2b88fddc10f608387b5f08c80e1b836dfd9118211d72534deb12810cffda37",
     "dial": "ffef53f87f1ece5630d5a66cfb79c74cccc6a2bcdf589070bbc8827a62ceef39",
-    "locator": "c359ab7043e56480e1748d34b1f8cd1688f46d008dfa0c51c1d53bbf652fac53",
+    "locator": "75bfa24925e5a7021c1692d26acfff9414f72f08181cb306af10376b6c159c57",
     "markings": "8250b459ebcb69d9ec60b32a27ed342c6cc5198eac936f7ee0478b6d7b1e2099",
     "numerals": "58620432062713b3ca37c7c550b82a5c0c6b05829b4c939cae944974ca5f62d4"
   },
@@ -70,23 +70,23 @@
   },
   "artifacts": [
     {
-      "path": "manufacturing/clock/releases/export-2c88ab4e37368f2a72712c28b40685eb/model.step",
+      "path": "manufacturing/clock/releases/export-2df198c734dd71e33036b27a3d9e1ba4/model.step",
       "role": "model/step",
-      "sha256": "00f0d73a5d18f27d64fd723824ddb71f4fe567cee89f148e3ecf3fc44a51a1ae",
-      "sizeBytes": 12090383
+      "sha256": "0a2117621486708eaad6636f75acbeb3ee3012870078f13ac712a699ee55cbc6",
+      "sizeBytes": 12587458
     }
   ],
   "interference": {
-    "summary": "0 interfering pairs, 4 undetermined",
+    "summary": "0 interfering pairs, 3 undetermined",
     "counts": {
       "objects": 6,
       "pairs": 15,
-      "exact": 3,
-      "cached": 8,
+      "exact": 1,
+      "cached": 11,
       "interference": 0,
       "undeclared": 0,
       "over_budget": 0,
-      "undetermined": 4
+      "undetermined": 3
     },
     "overlaps": []
   },
@@ -95,9 +95,9 @@
     "algorithm": "hmac-sha256",
     "keyId": "208b76e9a2655818165e77ecb9e93644",
     "projectId": "60b84c38-422d-4b10-9988-4fe3fe272030",
-    "receiptPath": "manufacturing/clock/releases/export-2c88ab4e37368f2a72712c28b40685eb/receipt.json",
-    "payloadSha256": "91d4aa4d5d1cdf518cbd945a71ac1bdb1943f57ed0f0d8446b725e4b916b9df4",
-    "mac": "19fbb26a2aa20e7914f89c9db8a638a83959b38f5beed95f3ec5dcfd2468bfb0"
+    "receiptPath": "manufacturing/clock/releases/export-2df198c734dd71e33036b27a3d9e1ba4/receipt.json",
+    "payloadSha256": "a82a7a53751a2b3ef9618af26be0c708bd15423c54eddbd1bec2645487f3a3f7",
+    "mac": "d9f68ac4365ce2e9e93720232b3370c8ab15f9a65bb33ed1b42dcde08fa02b78"
   },
   "status": "handoff"
 }
