@@ -139,6 +139,18 @@
     "base_rear_inset_mm": {
       "value": 8,
       "source": "default"
+    },
+    "storage_floor_target": {
+      "value": "Raise the rear storage pocket floor to the horizontal line in the user markup",
+      "source": "user"
+    },
+    "storage_floor_height_mm": {
+      "value": 35,
+      "source": "default"
+    },
+    "storage_depth_mm": {
+      "value": 125,
+      "source": "default"
     }
   },
   "open_questions": []
