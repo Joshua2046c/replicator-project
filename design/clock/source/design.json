@@ -12,7 +12,7 @@
           "target": "base",
           "order": 0,
           "path": "design/clock/source/parts/base/000-main.py",
-          "sha256": "633a60bf1f7d42228a1c179251cc2e5144cd4c8af8ae86c8aa9ec2c331241816"
+          "sha256": "febbd9738f1497dab3cd915a84fb810eebefa6603c8889b70b5fe9498d7ba4ad"
         }
       ],
       "dependencies": []
@@ -26,7 +26,7 @@
           "target": "body",
           "order": 0,
           "path": "design/clock/source/parts/body/000-main.py",
-          "sha256": "07134f6844c51e01f40899ad44efcb9b25e267991c785efb9a2a14cab873ec46"
+          "sha256": "b6bd40b31f58719d07b738895e9e703f81ae8d40bbbac9ed415314c34bd31831"
         }
       ],
       "dependencies": []
@@ -95,7 +95,7 @@
       "label": "Extended neck base",
       "material": "petg",
       "kind": "generated",
-      "shapeHash": "aa03d6d6585b401e360447e8fa19553df5650b82d8675558e2123e2d3f7e160f",
+      "shapeHash": "4ad783c2ed88dcd968258c93739bdef82412839f8e5c8ea5405d043c6e03979e",
       "transform": {
         "positionMm": [
           0,
@@ -122,7 +122,7 @@
       "label": "Recessed clock body",
       "material": "petg",
       "kind": "generated",
-      "shapeHash": "b0791d8ee722b69ea8e15d99c2747a0fe7b156451b10210eeb9d7a29dc4cd575",
+      "shapeHash": "a679a1e15ba4cb691ff33c1d67bcf501ce74fb6c7aa7877b69e3a57704731f1e",
       "transform": {
         "positionMm": [
           0,
@@ -176,12 +176,12 @@
       "label": "Separate square locator",
       "material": "petg",
       "kind": "generated",
-      "shapeHash": "75bfa24925e5a7021c1692d26acfff9414f72f08181cb306af10376b6c159c57",
+      "shapeHash": "c359ab7043e56480e1748d34b1f8cd1688f46d008dfa0c51c1d53bbf652fac53",
       "transform": {
         "positionMm": [
           0,
-          -13.263945588005365,
-          144.62651820608164
+          -12.879440909630038,
+          144.51626326375484
         ],
         "rotationDeg": [
           74,
@@ -254,7 +254,7 @@
   ],
   "assets": [],
   "fits": [],
-  "updatedAt": "2026-09-29T14:13:23.207Z",
+  "updatedAt": "2026-09-29T14:20:54.501Z",
   "parameters": {
     "base": {
       "base_width": 84,
@@ -270,9 +270,10 @@
       "base_neck_inset": 24,
       "base_neck_underside_height": 114,
       "base_rear_inset": 8,
-      "base_locator_width": 14.5,
+      "base_locator_width": 12.5,
       "base_locator_depth": 4.2,
-      "base_locator_drop": 15.070280702519653
+      "base_locator_drop": 15.070280702519653,
+      "base_neck_end_flat_length": 20
     },
     "body": {
       "body_diameter": 240,
@@ -285,8 +286,8 @@
       "body_rear_chamfer": 7,
       "body_front_chamfer": 1,
       "body_tilt_angle": 16,
-      "body_locator_width": 14.5,
-      "body_locator_depth": 2,
+      "body_locator_width": 12.5,
+      "body_locator_depth": 1.2,
       "body_locator_y": -24,
       "body_inner_lip_radius": 0.8
     },
@@ -300,8 +301,8 @@
       "dial_back_edge_radius": 0.5
     },
     "locator": {
-      "locator_width": 14,
-      "locator_thickness": 5.8,
+      "locator_width": 12,
+      "locator_thickness": 5,
       "locator_edge_chamfer": 0.2
     },
     "markings": {

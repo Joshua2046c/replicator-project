@@ -1,26 +1,26 @@
 {
   "designId": "clock",
-  "revision": "ae39939e3f5a057eec0bedccb877c09f0d76dd85b5e6905fdd2ff917127b7b76",
+  "revision": "b11b27b63208705810234917e75886d59feb66282a36b976f4d0eec23fc23f19",
   "schemaVersion": 2,
-  "exportId": "export-7a4198dccdb04288d5e25331f04b0071",
-  "generatedAt": "2026-09-29T14:13:23.207Z",
-  "designSha256": "9dcc667dc519be13d6023de4eb3d8eb125743c655d19df50c06db90bc7b92c5c",
+  "exportId": "export-fe7c0c097382e9653f172104423d2a58",
+  "generatedAt": "2026-09-29T14:20:54.501Z",
+  "designSha256": "de877b9e37aaecc239086c50534fc9bfbd7e4e13d020ea840d3041b61bebebfa",
   "role": "clock",
-  "stateHash": "d685f9ccd6f287c93d4032cd478e0a178bf359155afa746c992aa621697606c5",
+  "stateHash": "e61ebce6faed453db0f0740066a95520277eecf8c7a464650f186c5c35368378",
   "stateManifest": {
     "schemaVersion": 3,
     "designId": "clock",
     "role": "clock",
     "design": {
-      "revision": "ae39939e3f5a057eec0bedccb877c09f0d76dd85b5e6905fdd2ff917127b7b76",
-      "designSha256": "ae0ce76416ac43c83bd758ad5a3f81de627a4ce412b091ed0db507b650b3a8ed",
-      "manifestSha256": "6d7e1d3484bca3dbc36c712f7ce41ce4b8e24261d38af9cf08a2877aede34c16",
-      "stepSha256": "5c4387abc35cd11cf83c71e5d9e56bd99b4c8782b2552620b94822178a51ad85",
+      "revision": "b11b27b63208705810234917e75886d59feb66282a36b976f4d0eec23fc23f19",
+      "designSha256": "6064322cc27f1fb62c9f8650ef4ad1bf9269ac5e1d78f09440f1ffc726d99ee0",
+      "manifestSha256": "a4a5e65b00072bce9af5aab9e6ecd07f1f4d1f1086b8ce7612dcbc6ad74743eb",
+      "stepSha256": "91dd038c430a756e997214daae81c4e120ed4dedd7162539cb8ef465365d0d2e",
       "pcbReleases": []
     },
     "brief": {
       "path": "design/clock/README.md",
-      "sha256": "490401d067b5f487889bbc084b5ff133e0f93a6161db28c01ee9d23c8e26091b"
+      "sha256": "7c75a28f7ef87f97c1863d756911012fb553d1b94132ff1eebdc66c01abebc23"
     },
     "requirement": {
       "artifactContractPath": "product/contract.json",
@@ -34,19 +34,19 @@
         "step"
       ]
     },
-    "stateHash": "d685f9ccd6f287c93d4032cd478e0a178bf359155afa746c992aa621697606c5"
+    "stateHash": "e61ebce6faed453db0f0740066a95520277eecf8c7a464650f186c5c35368378"
   },
   "buildArtifacts": {
-    "manifestSha256": "6d7e1d3484bca3dbc36c712f7ce41ce4b8e24261d38af9cf08a2877aede34c16",
-    "stepSha256": "5c4387abc35cd11cf83c71e5d9e56bd99b4c8782b2552620b94822178a51ad85"
+    "manifestSha256": "a4a5e65b00072bce9af5aab9e6ecd07f1f4d1f1086b8ce7612dcbc6ad74743eb",
+    "stepSha256": "91dd038c430a756e997214daae81c4e120ed4dedd7162539cb8ef465365d0d2e"
   },
   "exportAlgorithm": {
     "version": 1,
     "bootstrapSha256": "f4939328ef685300fcdaa250c860428f6b9e009d10931b20d36728e55e0029e4"
   },
   "sourceHashes": {
-    "base/main": "633a60bf1f7d42228a1c179251cc2e5144cd4c8af8ae86c8aa9ec2c331241816",
-    "body/main": "07134f6844c51e01f40899ad44efcb9b25e267991c785efb9a2a14cab873ec46",
+    "base/main": "febbd9738f1497dab3cd915a84fb810eebefa6603c8889b70b5fe9498d7ba4ad",
+    "body/main": "b6bd40b31f58719d07b738895e9e703f81ae8d40bbbac9ed415314c34bd31831",
     "dial/dial": "fb48484ee419d0b09401ed6076987247eaa8954d949fd9e0a3a5df0e9b63feda",
     "locator/locator": "26f31d5ca8c987060f001b8f07c306cdece47ac4ea131a864a21936d3d64cb23",
     "markings/markings": "2d13b49f2392ce92c9e02bea836f5090e68f16545a5320b24cc761550cc4c1c1",
@@ -54,10 +54,10 @@
   },
   "assetHashes": {},
   "shapeHashes": {
-    "base": "aa03d6d6585b401e360447e8fa19553df5650b82d8675558e2123e2d3f7e160f",
-    "body": "b0791d8ee722b69ea8e15d99c2747a0fe7b156451b10210eeb9d7a29dc4cd575",
+    "base": "4ad783c2ed88dcd968258c93739bdef82412839f8e5c8ea5405d043c6e03979e",
+    "body": "a679a1e15ba4cb691ff33c1d67bcf501ce74fb6c7aa7877b69e3a57704731f1e",
     "dial": "ffef53f87f1ece5630d5a66cfb79c74cccc6a2bcdf589070bbc8827a62ceef39",
-    "locator": "75bfa24925e5a7021c1692d26acfff9414f72f08181cb306af10376b6c159c57",
+    "locator": "c359ab7043e56480e1748d34b1f8cd1688f46d008dfa0c51c1d53bbf652fac53",
     "markings": "8250b459ebcb69d9ec60b32a27ed342c6cc5198eac936f7ee0478b6d7b1e2099",
     "numerals": "58620432062713b3ca37c7c550b82a5c0c6b05829b4c939cae944974ca5f62d4"
   },
@@ -70,23 +70,23 @@
   },
   "artifacts": [
     {
-      "path": "manufacturing/clock/releases/export-7a4198dccdb04288d5e25331f04b0071/model.step",
+      "path": "manufacturing/clock/releases/export-fe7c0c097382e9653f172104423d2a58/model.step",
       "role": "model/step",
-      "sha256": "5c4387abc35cd11cf83c71e5d9e56bd99b4c8782b2552620b94822178a51ad85",
-      "sizeBytes": 12821319
+      "sha256": "91dd038c430a756e997214daae81c4e120ed4dedd7162539cb8ef465365d0d2e",
+      "sizeBytes": 12718854
     }
   ],
   "interference": {
-    "summary": "0 interfering pairs, 3 undetermined",
+    "summary": "0 interfering pairs, 5 undetermined",
     "counts": {
       "objects": 6,
       "pairs": 15,
-      "exact": 5,
-      "cached": 5,
+      "exact": 2,
+      "cached": 3,
       "interference": 0,
       "undeclared": 0,
       "over_budget": 0,
-      "undetermined": 3
+      "undetermined": 5
     },
     "overlaps": []
   },
@@ -95,9 +95,9 @@
     "algorithm": "hmac-sha256",
     "keyId": "208b76e9a2655818165e77ecb9e93644",
     "projectId": "60b84c38-422d-4b10-9988-4fe3fe272030",
-    "receiptPath": "manufacturing/clock/releases/export-7a4198dccdb04288d5e25331f04b0071/receipt.json",
-    "payloadSha256": "60ed1709298e97a25ea5612cdcfccaa44a0a7efd2a03629f10f9260327b2109f",
-    "mac": "9f172b04474ae20bb0ea4aaaf0a967f68ac7e89bd84537721c014d4392d6e8c5"
+    "receiptPath": "manufacturing/clock/releases/export-fe7c0c097382e9653f172104423d2a58/receipt.json",
+    "payloadSha256": "563a2c7b44368237faed23bd8ce4c3650b2985266e9e8730dca3736d72e1c292",
+    "mac": "02395e41ad6fdd8b9295c727c728e07c3434b6d58032a27c40b076bb98ebae9f"
   },
   "status": "handoff"
 }

@@ -101,29 +101,29 @@
       "source": "user"
     },
     "base_profile": {
-      "value": "Forward-projecting neck with a rounded concave underside; rear may taper inward slightly",
+      "value": "Forward-projecting neck with a rounded concave root; the end adjoining the clock back is a sharp right-angle connection without an arc transition; rear may taper inward slightly",
       "source": "user"
     },
     "locator_size_mm": {
       "value": [
-        14,
-        14,
-        5.8
+        12,
+        12,
+        5
       ],
       "source": "default"
     },
     "body_locator_recess_mm": {
       "value": [
-        14.5,
-        14.5,
-        2.0
+        12.5,
+        12.5,
+        1.2
       ],
       "source": "default"
     },
     "base_locator_recess_mm": {
       "value": [
-        14.5,
-        14.5,
+        12.5,
+        12.5,
         4.2
       ],
       "source": "default"
@@ -196,9 +196,9 @@
       "value": "Eliminate visible polygonal facets around the entire dial and body perimeter; smoothly continuous circular silhouette",
       "source": "user"
     },
-    "locator_refinement": {
-      "value": "Slightly enlarge the separate square locator and deepen the marked blind recess on the clock back",
-      "source": "user"
+    "base_neck_end_flat_length_mm": {
+      "value": 20,
+      "source": "default"
     }
   },
   "open_questions": []
