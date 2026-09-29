@@ -2,20 +2,20 @@
   "designId": "clock",
   "revision": "ae39939e3f5a057eec0bedccb877c09f0d76dd85b5e6905fdd2ff917127b7b76",
   "schemaVersion": 2,
-  "exportId": "export-2df198c734dd71e33036b27a3d9e1ba4",
-  "generatedAt": "2026-09-26T14:25:25.399Z",
-  "designSha256": "7aebc937a97dd83548c5a3ef60d224f73ad39654ba8626f0526385fc8d08419a",
+  "exportId": "export-7a4198dccdb04288d5e25331f04b0071",
+  "generatedAt": "2026-09-29T14:13:23.207Z",
+  "designSha256": "9dcc667dc519be13d6023de4eb3d8eb125743c655d19df50c06db90bc7b92c5c",
   "role": "clock",
-  "stateHash": "b573c312da98a5ec2292e42d8469d6ae3f1f8f5ae36b9bdf0128cd66b4911589",
+  "stateHash": "d685f9ccd6f287c93d4032cd478e0a178bf359155afa746c992aa621697606c5",
   "stateManifest": {
     "schemaVersion": 3,
     "designId": "clock",
     "role": "clock",
     "design": {
       "revision": "ae39939e3f5a057eec0bedccb877c09f0d76dd85b5e6905fdd2ff917127b7b76",
-      "designSha256": "392bbf81b11d5c8198485b2321c0785a4bc1499489a032a8dcb6d3ba9481b826",
-      "manifestSha256": "3b85b4860f004c7d90a41c22b9fb1b9483a003bece67f7a2fe5e5f7298681427",
-      "stepSha256": "0a2117621486708eaad6636f75acbeb3ee3012870078f13ac712a699ee55cbc6",
+      "designSha256": "ae0ce76416ac43c83bd758ad5a3f81de627a4ce412b091ed0db507b650b3a8ed",
+      "manifestSha256": "6d7e1d3484bca3dbc36c712f7ce41ce4b8e24261d38af9cf08a2877aede34c16",
+      "stepSha256": "5c4387abc35cd11cf83c71e5d9e56bd99b4c8782b2552620b94822178a51ad85",
       "pcbReleases": []
     },
     "brief": {
@@ -34,11 +34,11 @@
         "step"
       ]
     },
-    "stateHash": "b573c312da98a5ec2292e42d8469d6ae3f1f8f5ae36b9bdf0128cd66b4911589"
+    "stateHash": "d685f9ccd6f287c93d4032cd478e0a178bf359155afa746c992aa621697606c5"
   },
   "buildArtifacts": {
-    "manifestSha256": "3b85b4860f004c7d90a41c22b9fb1b9483a003bece67f7a2fe5e5f7298681427",
-    "stepSha256": "0a2117621486708eaad6636f75acbeb3ee3012870078f13ac712a699ee55cbc6"
+    "manifestSha256": "6d7e1d3484bca3dbc36c712f7ce41ce4b8e24261d38af9cf08a2877aede34c16",
+    "stepSha256": "5c4387abc35cd11cf83c71e5d9e56bd99b4c8782b2552620b94822178a51ad85"
   },
   "exportAlgorithm": {
     "version": 1,
@@ -55,7 +55,7 @@
   "assetHashes": {},
   "shapeHashes": {
     "base": "aa03d6d6585b401e360447e8fa19553df5650b82d8675558e2123e2d3f7e160f",
-    "body": "ba2b88fddc10f608387b5f08c80e1b836dfd9118211d72534deb12810cffda37",
+    "body": "b0791d8ee722b69ea8e15d99c2747a0fe7b156451b10210eeb9d7a29dc4cd575",
     "dial": "ffef53f87f1ece5630d5a66cfb79c74cccc6a2bcdf589070bbc8827a62ceef39",
     "locator": "75bfa24925e5a7021c1692d26acfff9414f72f08181cb306af10376b6c159c57",
     "markings": "8250b459ebcb69d9ec60b32a27ed342c6cc5198eac936f7ee0478b6d7b1e2099",
@@ -70,10 +70,10 @@
   },
   "artifacts": [
     {
-      "path": "manufacturing/clock/releases/export-2df198c734dd71e33036b27a3d9e1ba4/model.step",
+      "path": "manufacturing/clock/releases/export-7a4198dccdb04288d5e25331f04b0071/model.step",
       "role": "model/step",
-      "sha256": "0a2117621486708eaad6636f75acbeb3ee3012870078f13ac712a699ee55cbc6",
-      "sizeBytes": 12587458
+      "sha256": "5c4387abc35cd11cf83c71e5d9e56bd99b4c8782b2552620b94822178a51ad85",
+      "sizeBytes": 12821319
     }
   ],
   "interference": {
@@ -81,8 +81,8 @@
     "counts": {
       "objects": 6,
       "pairs": 15,
-      "exact": 1,
-      "cached": 11,
+      "exact": 5,
+      "cached": 5,
       "interference": 0,
       "undeclared": 0,
       "over_budget": 0,
@@ -95,9 +95,9 @@
     "algorithm": "hmac-sha256",
     "keyId": "208b76e9a2655818165e77ecb9e93644",
     "projectId": "60b84c38-422d-4b10-9988-4fe3fe272030",
-    "receiptPath": "manufacturing/clock/releases/export-2df198c734dd71e33036b27a3d9e1ba4/receipt.json",
-    "payloadSha256": "a82a7a53751a2b3ef9618af26be0c708bd15423c54eddbd1bec2645487f3a3f7",
-    "mac": "d9f68ac4365ce2e9e93720232b3370c8ab15f9a65bb33ed1b42dcde08fa02b78"
+    "receiptPath": "manufacturing/clock/releases/export-7a4198dccdb04288d5e25331f04b0071/receipt.json",
+    "payloadSha256": "60ed1709298e97a25ea5612cdcfccaa44a0a7efd2a03629f10f9260327b2109f",
+    "mac": "9f172b04474ae20bb0ea4aaaf0a967f68ac7e89bd84537721c014d4392d6e8c5"
   },
   "status": "handoff"
 }

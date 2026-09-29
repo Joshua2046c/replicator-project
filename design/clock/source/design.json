@@ -122,7 +122,7 @@
       "label": "Recessed clock body",
       "material": "petg",
       "kind": "generated",
-      "shapeHash": "ba2b88fddc10f608387b5f08c80e1b836dfd9118211d72534deb12810cffda37",
+      "shapeHash": "b0791d8ee722b69ea8e15d99c2747a0fe7b156451b10210eeb9d7a29dc4cd575",
       "transform": {
         "positionMm": [
           0,
@@ -254,7 +254,7 @@
   ],
   "assets": [],
   "fits": [],
-  "updatedAt": "2026-09-26T14:25:25.399Z",
+  "updatedAt": "2026-09-29T14:13:23.207Z",
   "parameters": {
     "base": {
       "base_width": 84,
