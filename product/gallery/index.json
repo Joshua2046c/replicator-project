@@ -2,6 +2,14 @@
   "schemaVersion": 1,
   "entries": [
     {
+      "file": "codex-image-2026-10-1-20-05-23.jpg",
+      "kind": "photo"
+    },
+    {
+      "file": "codex-image-2026-10-1-20-06-21.jpg",
+      "kind": "photo"
+    },
+    {
       "file": "cover-iso.jpg",
       "kind": "render",
       "generated": true
