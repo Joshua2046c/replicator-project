@@ -2,6 +2,13 @@
   "schemaVersion": 1,
   "entries": [
     {
+      "file": "dial-numeral-trace.json",
+      "sha256": "d107f1183802a87b78cfd3d303ab140434a38ba799571133f73c525d5abe5a89",
+      "bytes": 71022,
+      "addedAt": "2026-09-26T02:31:00.374Z",
+      "share": false
+    },
+    {
       "file": "uploads/20260925T180213684Z-1-20260922184141aicy-1-58-29.jpg",
       "sha256": "3314032756d6db5ebb004ccf64185405d2cbc923067b35fd6440aa6718485704",
       "bytes": 259023,
@@ -62,6 +69,55 @@
       "sha256": "ae19cd6155a3aa873178f19109ee317ead9600b07b90457e95203079d3d2f323",
       "bytes": 1434985,
       "addedAt": "2026-09-26T01:56:42.348Z",
+      "share": false
+    },
+    {
+      "file": "uploads/20260926T015758472Z-1-mark.png",
+      "sha256": "8c57e04a817b3d8d2752434e14fb94c3ed454465c423d986aaba143eff7ac498",
+      "bytes": 1695628,
+      "addedAt": "2026-09-26T01:57:59.090Z",
+      "share": false
+    },
+    {
+      "file": "uploads/20260926T020754483Z-1-image.png",
+      "sha256": "8df4b9a8cec5eaed771ab206b346063f954cb0ffa6309c1d281bd4104be06bbe",
+      "bytes": 1528142,
+      "addedAt": "2026-09-26T02:08:02.209Z",
+      "share": false
+    },
+    {
+      "file": "uploads/20260926T022642415Z-1-image.png",
+      "sha256": "8df4b9a8cec5eaed771ab206b346063f954cb0ffa6309c1d281bd4104be06bbe",
+      "bytes": 1528142,
+      "addedAt": "2026-09-26T02:26:50.012Z",
+      "share": false
+    },
+    {
+      "file": "uploads/20260926T025955152Z-1-mark.png",
+      "sha256": "72247bc4f603e69dc6eb8ebc6c14233ec61d17c7a74f5ec7ff11a09c0fa2f136",
+      "bytes": 1049146,
+      "addedAt": "2026-09-26T03:00:02.044Z",
+      "share": false
+    },
+    {
+      "file": "uploads/20260926T141908583Z-1-mark.png",
+      "sha256": "9e0e9fcf5ee492ceef5b1ab6bf73fd57cb671bf3f51922c7c1ce4b029876de21",
+      "bytes": 151518,
+      "addedAt": "2026-09-26T14:19:17.401Z",
+      "share": false
+    },
+    {
+      "file": "uploads/20260929T140137364Z-1-mark.png",
+      "sha256": "ffcd9627057f8d31be2d7a8a52d9e44c4aed779beae91dae25c801c3a8a3ed4d",
+      "bytes": 367887,
+      "addedAt": "2026-09-29T14:02:09.116Z",
+      "share": false
+    },
+    {
+      "file": "uploads/20260929T141726501Z-1-mark.png",
+      "sha256": "81bb1b6d80a4caef39c786cc1cc9ee1f868234b77e3a63e070be262b9451fe09",
+      "bytes": 340783,
+      "addedAt": "2026-09-29T14:17:43.446Z",
       "share": false
     }
   ]

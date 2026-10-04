@@ -1,5 +1,8 @@
 {
   "formatVersion": 4,
   "name": "座钟",
+  "title": "伸颈式收纳座钟",
+  "summary": "一款采用通用电池式石英钟芯的伸颈式座钟，配有黄色盘面、白色浮雕刻度与数字及顶部收纳底座，用于桌面计时与物品收纳。",
+  "license": "MIT",
   "artifacts": "rebuild"
 }
