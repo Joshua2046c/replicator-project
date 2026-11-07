@@ -199,7 +199,7 @@
       "source": "user"
     },
     "battery_hatch_mechanism": {
-      "value": "钟背中央磁吸可拆盖，上缘中央仅一对磁铁位，孔径7.26 mm、深1.26 mm；壳体下方取消半圆凹陷，盖子下缘改长方形扣手槽。",
+      "value": "钟背中央磁吸可拆盖，上缘中央仅一对磁铁位，孔径7.1 mm、深1.1 mm；壳体下方取消半圆凹陷，盖子下缘改长方形扣手槽。",
       "source": "user"
     },
     "battery_hatch_service": {
@@ -264,8 +264,8 @@
     },
     "cover_magnet_pocket_mm": {
       "value": {
-        "diameter": 7.26,
-        "depth": 1.26
+        "diameter": 7.1,
+        "depth": 1.1
       },
       "source": "user"
     },
@@ -347,13 +347,6 @@
     "hanger_recess_depth_mm": {
       "value": 2.8,
       "source": "default"
-    },
-    "magnet_pocket_increment_mm": {
-      "value": {
-        "diameter": 0.16,
-        "depth": 0.16
-      },
-      "source": "user"
     },
     "dial_magnetic_mount": {
       "value": {

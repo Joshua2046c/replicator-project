@@ -1,0 +1,127 @@
+{
+  "designId": "clock_recovered",
+  "revision": "91f0c1eaa251f4bc9ba7f01a8ffafc9c301983019d8252a59e67ed10176bfe86",
+  "schemaVersion": 3,
+  "exportId": "export-6cc78ac2a45e489430bde6c00bbc160f",
+  "generatedAt": "2026-10-28T01:36:13.967Z",
+  "designSha256": "62e3515578912ef11b60490b772e3c55832b1db027e1610caa19c088e39a71ae",
+  "role": "clock",
+  "stateHash": "b17e88ac4fa4a6900a535c14a76786c6627e8acc3532ff8fc3175415f4fd5089",
+  "stateManifest": {
+    "schemaVersion": 4,
+    "designId": "clock_recovered",
+    "role": "clock",
+    "design": {
+      "revision": "91f0c1eaa251f4bc9ba7f01a8ffafc9c301983019d8252a59e67ed10176bfe86",
+      "designSha256": "b12eb7ad36f3b405177faf3a58840c84e39d3668da69f3437b490b848ec27731",
+      "manifestSha256": "9a5171b5da3136914b1dade8053b2e4cc928155146224a4ab5c419f28b2bb51c",
+      "modelSha256": "6cdbdb9f0fc3fe142bd9d3be00a5b914bfe592ed81ec112b7b33cfd436b84c19",
+      "pcbReleases": []
+    },
+    "brief": {
+      "path": "design/clock_recovered/README.md",
+      "sha256": "9457443022397c8392e563a3c6de96b5e393a44c49bdb2fe3e8a72bd095e7c1c"
+    },
+    "requirement": {
+      "artifactContractPath": "product/contract.json",
+      "artifactContractSha256": "b16375b39fdb5b6e91a9ed985677ca9273a84eb8bc8c1429034aa94f810ee04f",
+      "designRequirementSha256": "ea5cbd081b11d032c2aecb2a2889cbbe132a0a6329aef84dc491ef333633c7fe",
+      "inputs": [
+        {
+          "role": "external-reference",
+          "id": "recovery_step",
+          "path": "manufacturing/clock/releases/export-3567c9286b70bda4189a82fb043449c1/model.step",
+          "sha256": "5ace57df0fda9a15847270cbe66048984c366595415927b0751c0765d7b14559",
+          "sizeBytes": 15440535
+        }
+      ]
+    },
+    "delivery": {
+      "target": "printable_part",
+      "formats": [
+        "step"
+      ]
+    },
+    "stateHash": "b17e88ac4fa4a6900a535c14a76786c6627e8acc3532ff8fc3175415f4fd5089"
+  },
+  "buildArtifacts": {
+    "manifestSha256": "9a5171b5da3136914b1dade8053b2e4cc928155146224a4ab5c419f28b2bb51c",
+    "modelSha256": "6cdbdb9f0fc3fe142bd9d3be00a5b914bfe592ed81ec112b7b33cfd436b84c19"
+  },
+  "exportAlgorithm": {
+    "version": 1,
+    "bootstrapSha256": "d0c34e3d2f5c47690201050c3a15c8903c73347e1e9ba5380a948178ddcc6d74"
+  },
+  "sourceHashes": {
+    "base/base": "c6cb23d70ccb0df5c3a44d2f52135a978b3aee04588109562dc7bc97c003d083",
+    "battery_cover/battery_cover": "a8b17a6b35e136ccd5774ce98eb0219eb05a978a9fa18c3b0fe465ac66b21ed7",
+    "body/body": "bc1db38a509ba118404258c926b6ca125096a3c56bae3f287adfa9048b377716",
+    "body/features": "f43af68b4ef37cc29b3d1a8c10a4ef1058573ae7fede5f3c657e270ea6c6c136",
+    "body/topology_1": "d4050752372931b4214d947fdd6801a7caf9b5784746d6569863a73671b99ba2",
+    "body/topology_2": "67bfb3f121378641d0e7274a8f68ed300c5136780f6643748c67fbcb70658bbe",
+    "body/topology_3": "bdde313b0eeb5fe6f38295e3294b0ee261bb38e3d40c764f632921a9b330515f",
+    "dial/dial": "19a57cdf12666fafcdad062fc65b141714c011c8ee69d80ead4d949e35b46b72",
+    "dial/features": "3d0ac49a5b2c238839fd9063b30e9568510b0733592cafff869565e3dfb40773",
+    "dial/topology_1": "1a4dedd0ca575c352751db11eb0abf869ff2c9e6539152e0556421963984b917",
+    "dial/topology_10": "0db04da1c0391a6a89f6938f54adffbd0c597bc0364cb6bab2e48051ae924074",
+    "dial/topology_2": "351bfdfa0050e38dd7010344c3d6625b000d9db169ec1b1b7a88b6df83b262eb",
+    "dial/topology_3": "1046792da488ba3f4280989473402470a75d3d9a8e52cb76951d42d309c95db4",
+    "dial/topology_4": "33e5b17f2348812e237c794ff28c7a7a29bee76629d6fa2255bc95726d358e13",
+    "dial/topology_5": "d054d316f9a414ba8ee7c03e5ce2965c3f8318e01ea1c870eac89a74b559359e",
+    "dial/topology_6": "96c8ef5aa5d031ad748d5d24d26eeea09879df408ff781c36f380fd3ad209cfa",
+    "dial/topology_7": "99087112bb64710e791d8426f882dff0c8e1afb82dcbd53b13702f7e1e96c7d1",
+    "dial/topology_8": "b451e69169a0fd7bc7f059bd0db3d2abb63f711debecadbba38f742e56cb804e",
+    "dial/topology_9": "af11748cee36d40645ab5257470c04ce2946e972673b3ab47b993c8b707d0862",
+    "rail_left/rail_left": "170a5e7cce124288173463238616d8e34f21bb12ca5e4c2dba7b28094d66ed52",
+    "rail_right/rail_right": "3c9b45831eed7fef1fcbf60997800520c567867a76af33049aef32de3f015622"
+  },
+  "assetHashes": {},
+  "shapeHashes": {
+    "base": "8b78d1b98517800879b011da93b0f821b2032a36a19532f608f3353a81ccd8cf",
+    "battery_cover": "03c09c10c77763de4d46989ced34472c81817f67e378024f389279a58fe930e2",
+    "body": "bca011aad947d26a896ee171996f508003bf47bad7034666731376767716a3c6",
+    "dial": "92a89cc9c2a2249e98aee7ad56958f320263c2f5c2ee0028ea1d44a65dff27df",
+    "rail_left": "6ca7f5a70b1740dae54baf7f9344e92fb8bc447ecf75f0d63db201be2f44444f",
+    "rail_right": "39a1ee8110d189870f5b74781722ed3c3bdf493f8f4d5b5af40d1ff818aa0939"
+  },
+  "runtime": {
+    "manifestHash": "0e9e78fb2799b623b3e2d845c7ae0b19adf2f81a80f0048f0272c94412ae4602",
+    "pythonVersion": "3.12.13",
+    "build123dVersion": "0.10.0",
+    "ocpVersion": "7.8.1.1.post1",
+    "cadpyHash": "6136c5f60545495c94dc5fd3889f1377be04dbbaf7389bb9d17f0c4609b31e43"
+  },
+  "artifacts": [
+    {
+      "path": "manufacturing/clock_recovered/releases/export-6cc78ac2a45e489430bde6c00bbc160f/model.step",
+      "role": "model/step",
+      "sha256": "88786e9357f9c60ac88d62d454740201bee76827cf27168e8b647a1911ca44d0",
+      "sizeBytes": 17619041
+    }
+  ],
+  "interference": {
+    "summary": "No interference across 15 object pairs.",
+    "counts": {
+      "objects": 6,
+      "pairs": 15,
+      "exact": 0,
+      "mesh": 0,
+      "cached": 4,
+      "interference": 0,
+      "undeclared": 0,
+      "over_budget": 0,
+      "undetermined": 0
+    },
+    "overlaps": []
+  },
+  "authority": {
+    "version": 1,
+    "algorithm": "hmac-sha256",
+    "keyId": "b5b12a0f2c6c78d9f38dc0aac7181d85",
+    "projectId": "60b84c38-422d-4b10-9988-4fe3fe272030",
+    "receiptPath": "manufacturing/clock_recovered/releases/export-6cc78ac2a45e489430bde6c00bbc160f/receipt.json",
+    "payloadSha256": "4e1182be23ead45cceb5b8317d42be4411b23f564cc4ab9f28f788273e8181cb",
+    "mac": "3e00639e96558b3022bc0153eae3bf5faf3b16eaf307174a17e56d337dc1b763"
+  },
+  "status": "handoff"
+}

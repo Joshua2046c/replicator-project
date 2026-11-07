@@ -98,8 +98,8 @@
       1
     ],
     "magnet_pocket": [
-      7.26,
-      1.26
+      7.1,
+      1.1
     ],
     "magnet_pairs": 1,
     "magnet_centers": [
@@ -112,11 +112,11 @@
     "requires_clock_removed_from_base": true,
     "backplate_thickness": 5.6,
     "magnet_support_inner_flush": true,
-    "magnet_radial_gap": 0.13,
-    "magnet_depth_gap": 0.26,
+    "magnet_radial_gap": 0.05,
+    "magnet_depth_gap": 0.1,
     "magnet_pocket_floor_thickness": {
-      "body": 1.84,
-      "cover": 0.94
+      "body": 2.0,
+      "cover": 1.1
     }
   },
   "rear_hanger": {

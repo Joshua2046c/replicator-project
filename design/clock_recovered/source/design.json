@@ -1,0 +1,387 @@
+{
+  "schemaVersion": 1,
+  "units": "mm",
+  "coordinateFrame": "makit-world-z-up",
+  "targets": [
+    {
+      "id": "body",
+      "label": "body",
+      "cells": [
+        {
+          "id": "body",
+          "target": "body",
+          "order": 0,
+          "path": "design/clock_recovered/source/parts/body/000-body.py",
+          "sha256": "bc1db38a509ba118404258c926b6ca125096a3c56bae3f287adfa9048b377716"
+        },
+        {
+          "id": "topology_1",
+          "target": "body",
+          "order": 1,
+          "path": "design/clock_recovered/source/parts/body/001-topology_1.py",
+          "sha256": "d4050752372931b4214d947fdd6801a7caf9b5784746d6569863a73671b99ba2"
+        },
+        {
+          "id": "topology_2",
+          "target": "body",
+          "order": 2,
+          "path": "design/clock_recovered/source/parts/body/002-topology_2.py",
+          "sha256": "67bfb3f121378641d0e7274a8f68ed300c5136780f6643748c67fbcb70658bbe"
+        },
+        {
+          "id": "topology_3",
+          "target": "body",
+          "order": 3,
+          "path": "design/clock_recovered/source/parts/body/003-topology_3.py",
+          "sha256": "bdde313b0eeb5fe6f38295e3294b0ee261bb38e3d40c764f632921a9b330515f"
+        },
+        {
+          "id": "features",
+          "target": "body",
+          "order": 4,
+          "path": "design/clock_recovered/source/parts/body/004-features.py",
+          "sha256": "f43af68b4ef37cc29b3d1a8c10a4ef1058573ae7fede5f3c657e270ea6c6c136"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "dial",
+      "label": "dial",
+      "cells": [
+        {
+          "id": "dial",
+          "target": "dial",
+          "order": 0,
+          "path": "design/clock_recovered/source/parts/dial/000-dial.py",
+          "sha256": "19a57cdf12666fafcdad062fc65b141714c011c8ee69d80ead4d949e35b46b72"
+        },
+        {
+          "id": "topology_1",
+          "target": "dial",
+          "order": 1,
+          "path": "design/clock_recovered/source/parts/dial/001-topology_1.py",
+          "sha256": "1a4dedd0ca575c352751db11eb0abf869ff2c9e6539152e0556421963984b917"
+        },
+        {
+          "id": "topology_2",
+          "target": "dial",
+          "order": 2,
+          "path": "design/clock_recovered/source/parts/dial/002-topology_2.py",
+          "sha256": "351bfdfa0050e38dd7010344c3d6625b000d9db169ec1b1b7a88b6df83b262eb"
+        },
+        {
+          "id": "topology_3",
+          "target": "dial",
+          "order": 3,
+          "path": "design/clock_recovered/source/parts/dial/003-topology_3.py",
+          "sha256": "1046792da488ba3f4280989473402470a75d3d9a8e52cb76951d42d309c95db4"
+        },
+        {
+          "id": "topology_4",
+          "target": "dial",
+          "order": 4,
+          "path": "design/clock_recovered/source/parts/dial/004-topology_4.py",
+          "sha256": "33e5b17f2348812e237c794ff28c7a7a29bee76629d6fa2255bc95726d358e13"
+        },
+        {
+          "id": "topology_5",
+          "target": "dial",
+          "order": 5,
+          "path": "design/clock_recovered/source/parts/dial/005-topology_5.py",
+          "sha256": "d054d316f9a414ba8ee7c03e5ce2965c3f8318e01ea1c870eac89a74b559359e"
+        },
+        {
+          "id": "topology_6",
+          "target": "dial",
+          "order": 6,
+          "path": "design/clock_recovered/source/parts/dial/006-topology_6.py",
+          "sha256": "96c8ef5aa5d031ad748d5d24d26eeea09879df408ff781c36f380fd3ad209cfa"
+        },
+        {
+          "id": "topology_7",
+          "target": "dial",
+          "order": 7,
+          "path": "design/clock_recovered/source/parts/dial/007-topology_7.py",
+          "sha256": "99087112bb64710e791d8426f882dff0c8e1afb82dcbd53b13702f7e1e96c7d1"
+        },
+        {
+          "id": "topology_8",
+          "target": "dial",
+          "order": 8,
+          "path": "design/clock_recovered/source/parts/dial/008-topology_8.py",
+          "sha256": "b451e69169a0fd7bc7f059bd0db3d2abb63f711debecadbba38f742e56cb804e"
+        },
+        {
+          "id": "topology_9",
+          "target": "dial",
+          "order": 9,
+          "path": "design/clock_recovered/source/parts/dial/009-topology_9.py",
+          "sha256": "af11748cee36d40645ab5257470c04ce2946e972673b3ab47b993c8b707d0862"
+        },
+        {
+          "id": "topology_10",
+          "target": "dial",
+          "order": 10,
+          "path": "design/clock_recovered/source/parts/dial/010-topology_10.py",
+          "sha256": "0db04da1c0391a6a89f6938f54adffbd0c597bc0364cb6bab2e48051ae924074"
+        },
+        {
+          "id": "features",
+          "target": "dial",
+          "order": 11,
+          "path": "design/clock_recovered/source/parts/dial/011-features.py",
+          "sha256": "3d0ac49a5b2c238839fd9063b30e9568510b0733592cafff869565e3dfb40773"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "battery_cover",
+      "label": "battery_cover",
+      "cells": [
+        {
+          "id": "battery_cover",
+          "target": "battery_cover",
+          "order": 0,
+          "path": "design/clock_recovered/source/parts/battery_cover/000-battery_cover.py",
+          "sha256": "a8b17a6b35e136ccd5774ce98eb0219eb05a978a9fa18c3b0fe465ac66b21ed7"
+        }
+      ],
+      "dependencies": [
+        "body"
+      ]
+    },
+    {
+      "id": "base",
+      "label": "base",
+      "cells": [
+        {
+          "id": "base",
+          "target": "base",
+          "order": 0,
+          "path": "design/clock_recovered/source/parts/base/000-base.py",
+          "sha256": "c6cb23d70ccb0df5c3a44d2f52135a978b3aee04588109562dc7bc97c003d083"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "rail_left",
+      "label": "rail_left",
+      "cells": [
+        {
+          "id": "rail_left",
+          "target": "rail_left",
+          "order": 0,
+          "path": "design/clock_recovered/source/parts/rail_left/000-rail_left.py",
+          "sha256": "170a5e7cce124288173463238616d8e34f21bb12ca5e4c2dba7b28094d66ed52"
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "rail_right",
+      "label": "rail_right",
+      "cells": [
+        {
+          "id": "rail_right",
+          "target": "rail_right",
+          "order": 0,
+          "path": "design/clock_recovered/source/parts/rail_right/000-rail_right.py",
+          "sha256": "3c9b45831eed7fef1fcbf60997800520c567867a76af33049aef32de3f015622"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "objects": [
+    {
+      "id": "body",
+      "target": "body",
+      "label": "钟壳",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "bca011aad947d26a896ee171996f508003bf47bad7034666731376767716a3c6",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "dial",
+      "target": "dial",
+      "label": "一体表盘",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "92a89cc9c2a2249e98aee7ad56958f320263c2f5c2ee0028ea1d44a65dff27df",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "battery_cover",
+      "target": "battery_cover",
+      "label": "磁吸电池盖",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "03c09c10c77763de4d46989ced34472c81817f67e378024f389279a58fe930e2",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "base",
+      "target": "base",
+      "label": "收纳底座",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "8b78d1b98517800879b011da93b0f821b2032a36a19532f608f3353a81ccd8cf",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "rail_left",
+      "target": "rail_left",
+      "label": "左粘合滑轨",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "6ca7f5a70b1740dae54baf7f9344e92fb8bc447ecf75f0d63db201be2f44444f",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "rail_right",
+      "target": "rail_right",
+      "label": "右粘合滑轨",
+      "material": "petg",
+      "kind": "generated",
+      "shapeHash": "39a1ee8110d189870f5b74781722ed3c3bdf493f8f4d5b5af40d1ff818aa0939",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    }
+  ],
+  "assets": [],
+  "fits": [],
+  "updatedAt": "2026-10-28T01:36:13.967Z",
+  "parameters": {
+    "body": {
+      "body_magnet_pocket_diameter": 7.1,
+      "body_magnet_pocket_depth": 1.1,
+      "body_magnet_center_offset": 23
+    },
+    "dial": {
+      "dial_back_height": 26
+    },
+    "battery_cover": {
+      "cover_position_z": 0
+    },
+    "base": {
+      "base_display_x": 190
+    },
+    "rail_left": {
+      "rail_left_center_x": -35
+    },
+    "rail_right": {
+      "rail_right_center_x": 35
+    }
+  }
+}

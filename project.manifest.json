@@ -1,8 +1,8 @@
 {
   "formatVersion": 4,
-  "name": "可收纳座钟",
-  "title": "座挂两用钟",
-  "summary": "将圆形挂钟与收纳底座结合，让查看时间和整理小物的功能融于一体，钟可通过滑轨拆下挂于墙上，背面设有磁吸开盖结构，便于更换电池",
+  "name": "座挂两用钟",
+  "title": "Dual-Use Desk & Wall Clock",
+  "summary": "Combines a round wall clock with a storage base, integrating timekeeping and small-item storage. The clock slides off the rail for wall mounting. It features a magnetic rear cover for easy battery replacement.",
   "license": "MIT",
   "authors": [
     {

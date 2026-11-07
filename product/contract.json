@@ -28,7 +28,7 @@
     {
       "id": "battery_hatch",
       "kind": "mechanical_joint",
-      "description": "中央58x58 mm R3磁吸可拆盖，上缘居中一对磁铁位，壳体与盖子各一孔Ø7.26x1.26 mm；下缘15x2 mm长方形扣手槽，取消壳体外侧半圆凹陷 磁铁座内侧与背板内部表面齐平，机芯腔净深至少17 mm。",
+      "description": "中央58x58 mm R3磁吸可拆盖，上缘居中一对磁铁位，壳体与盖子各一孔Ø7.1x1.1 mm；下缘15x2 mm长方形扣手槽，取消壳体外侧半圆凹陷 磁铁座内侧与背板内部表面齐平，机芯腔净深至少17 mm。",
       "source": "user_requested",
       "required": true
     },
@@ -46,6 +46,12 @@
       "source": "user_requested",
       "description": "用户上传的座钟正侧面及背面图",
       "path": "product/references/uploads"
+    },
+    {
+      "id": "recovery_step",
+      "source": "existing_workspace",
+      "description": "Recover six editable parts from the last exported clock STEP",
+      "path": "manufacturing/clock/releases/export-3567c9286b70bda4189a82fb043449c1/model.step"
     }
   ],
   "assembly_story": {
@@ -61,7 +67,7 @@
     "designs": [
       {
         "role": "clock",
-        "design_id": "clock",
+        "design_id": "clock_recovered",
         "description": "Storage clock with independent bonded slides, single-pair magnetic rear cover and rectangular lower finger notch",
         "delivery_target": "printable_part",
         "required_formats": [
@@ -75,7 +81,8 @@
           "wall_hanger"
         ],
         "reference_ids": [
-          "reference_images"
+          "reference_images",
+          "recovery_step"
         ]
       }
     ]

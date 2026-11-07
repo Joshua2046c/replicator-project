@@ -2,6 +2,13 @@
   "schemaVersion": 1,
   "entries": [
     {
+      "file": "clock-step-recovery.json",
+      "sha256": "ccc8bcc7592431b8bd7464b7f184e1131ba0745f68c3bfc4af8338af4ed4cc74",
+      "bytes": 928,
+      "addedAt": "2026-10-28T01:30:44.408Z",
+      "share": false
+    },
+    {
       "file": "dial-numeral-trace.json",
       "sha256": "d107f1183802a87b78cfd3d303ab140434a38ba799571133f73c525d5abe5a89",
       "bytes": 71022,

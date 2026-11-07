@@ -2,7 +2,7 @@
   "schema_version": 1,
   "status": "ready",
   "bom_ready": true,
-  "requirements_digest": "52deedaa6f4cdf2a1b3621132acd91ff2c392b5d268241e298075613d0b3dccd",
+  "requirements_digest": "bc4907c18694bb9b5f9fb08da8f37238b5730270f8df6fe956a34c2aa8ce3235",
   "items": [
     {
       "id": "movement",
@@ -23,7 +23,7 @@
     },
     {
       "id": "body",
-      "name": "Custom PETG clock shell, diameter 240 x 32 mm, 5.6 mm backplate coplanar with internal magnet support; two 0.1 mm rail locating recesses with R2.1 lower corners matching R2 rail pads plus 0.1 mm locating gap; keyhole hanger, 58 mm R3 cover seat; one upper-center magnet pocket diameter 7.26 x depth 1.26 mm; net movement depth 20.4 mm; fully supported annular dial seat from backplate to seat top; internal keyhole surround recess 16 x 26 mm R3, 2.8 mm deep into 5.6 mm backplate; four integral front-dial magnet seats at 12/3/6/9, radius 111 mm, each pocket diameter 7.1 x depth 1.1 mm",
+      "name": "Custom PETG clock shell, diameter 240 x 32 mm, 5.6 mm backplate coplanar with internal magnet support; two 0.1 mm rail locating recesses with R2.1 lower corners matching R2 rail pads plus 0.1 mm locating gap; keyhole hanger, 58 mm R3 cover seat; one upper-center magnet pocket diameter 7.1 x depth 1.1 mm; net movement depth 20.4 mm; fully supported annular dial seat from backplate to seat top; internal keyhole surround recess 16 x 26 mm R3, 2.8 mm deep into 5.6 mm backplate; four integral front-dial magnet seats at 12/3/6/9, radius 111 mm, each pocket diameter 7.1 x depth 1.1 mm",
       "quantity": 1,
       "source": "default"
     },
@@ -56,7 +56,7 @@
     },
     {
       "id": "battery_cover",
-      "name": "Custom PETG magnetic cover, 58 x 58 mm R3, 2.2 mm thick, one upper-centered magnet pocket diameter 7.26 x depth 1.26 mm and 15 x 2 mm lower rectangular finger notch",
+      "name": "Custom PETG magnetic cover, 58 x 58 mm R3, 2.2 mm thick, one upper-centered magnet pocket diameter 7.1 x depth 1.1 mm and 15 x 2 mm lower rectangular finger notch",
       "quantity": 1,
       "source": "default"
     },
