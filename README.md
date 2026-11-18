@@ -1,0 +1,1 @@
+A 3D-printable desk and wall clock with a sculptural storage base, raised numerals, and contrasting white markings. Slide it off the stand for wall mounting, and remove the magnetic rear cover for easy battery changes. Customize the colors to suit your space.
